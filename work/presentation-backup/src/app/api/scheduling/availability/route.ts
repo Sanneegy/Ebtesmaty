@@ -1,0 +1,5 @@
+import { NextResponse } from 'next/server';
+import db from '@/lib/db';
+import { availability } from '@/services/booking.service';
+import { CLINIC_SERVICES } from '@/config/clinic-catalog';
+export async function GET(req:Request){try{const p=new URL(req.url).searchParams;const branch=await db.branch.findUnique({where:{code:p.get('branchCode')||'BR-A'}});if(!branch||!branch.isActive)throw new Error('Choose an active branch.');const email=p.get('dentistEmail');const dentist=email&&email!=='ANY'?await db.user.findUnique({where:{email}}):null;if(email&&email!=='ANY'&&!dentist)throw new Error('Choose an available dentist.');const service=CLINIC_SERVICES.find(s=>s.slug===p.get('service'));const duration=service?.durationMinutes||45;const result=await availability(branch.id,p.get('date')||'',dentist?.id,duration);return NextResponse.json({branchCode:branch.code,date:p.get('date'),slots:result.slots,duties:result.duties.map(d=>({dentistId:d.dentistUserId,dentistName:d.dentistUser.fullName,dentistEmail:d.dentistUser.email}))});}catch(e:any){return NextResponse.json({error:e.message},{status:400});}}

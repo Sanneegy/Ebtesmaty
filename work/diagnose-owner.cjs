@@ -1,0 +1,3 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});try{const c=await b.newContext(),p=await c.newPage();p.on('console',m=>{if(m.type()==='error')console.log(m.text())});p.on('pageerror',e=>console.log(e.message));await c.request.post('http://localhost:3000/api/auth/demo-switch',{headers:{origin:'http://localhost:3000'},form:{email:'admin@ebtesamty.dev'},maxRedirects:0,timeout:120000});await p.goto('http://localhost:3003/management',{timeout:120000});await p.waitForTimeout(2000);}finally{await b.close()}})();
+
+

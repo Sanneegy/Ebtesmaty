@@ -1,0 +1,6523 @@
+[
+  {
+    "text": "SYSTEM GOVERNANCE & SECURITY CONTROLS",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Security & Access Control",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Audit, RBAC, roles & health",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "RBAC Mode: STRICT",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Staff Accounts",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Click for details",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/crm/CrmDashboardClient.tsx",
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "All staff roles, all branches.",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Branches",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Click for branch list",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "3 branches — all online",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Audit Events",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Zero-PHI · cryptographically signed events.",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient Records",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "EMPI · duplicate detection.",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Audit Log Explorer",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Users &amp; RBAC Grants (",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinic Branches (",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "System Health &amp; DB",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Immutable Audit Trail",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Zero-PHI redacted event ledger.",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "All Actions",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "PATIENT_CREATED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "INTAKE_SUBMITTED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "INTAKE_APPROVED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "APPOINTMENT_REQUESTED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "APPOINTMENT_CONFIRMED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "APPOINTMENT_CANCELLED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "PATIENT_ARRIVED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "PATIENT_VERIFIED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "PAYMENT_RECORDED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "STOCK_ADJUSTMENT",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "PURCHASE_ORDER_ISSUED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Timestamp",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Actor & Role",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Action",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Entity Type & ID",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Branch",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/crm/CrmDashboardClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Sanitized Metadata",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "No audit events found.",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "User Accounts & Role Grants",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Staff roles · branch access.",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "+ Grant Role",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "User",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Contact",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Status",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/crm/CrmDashboardClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Assigned RBAC Roles",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Created",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinic Multi-Branch Architecture",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Isolated inventory, queues & schedules.",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Phone:",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "System Health & Integrity Checks",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Services, DB & workflow status.",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "PostgreSQL Primary Database (127.0.0.1:5432/ebtesamty)",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "ONLINE · LATENCY 1.2ms",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "RBAC & Session Storage",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "ENFORCED (Cookie-based SHA-256)",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Audit Trail Redaction Pipeline",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "ZERO PHI VERIFIED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Notifications &amp; Reminders",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "LIVE WORKING (PostgreSQL)",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Email Adapter (SMTP / Outbox)",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "CONFIGURABLE ADAPTER",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Payment Gateway &amp; WhatsApp",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "SANDBOX MODE ENABLED",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Service Catalog &amp; EGP Pricing",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Code",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Service Name",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Category",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Duration",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Fee Range (EGP)",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "min",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/page.tsx",
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "Grant RBAC Privilege",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Select User Account",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "-- Choose User --",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Role Permission",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "RECEPTIONIST",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "DENTIST",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Finance / Accountant",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Inventory",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "CRM",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "BRANCH_MANAGER",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "OWNER_ADMIN",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "PATIENT",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Branch Scope (Optional)",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Global / All Branches",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Cancel",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/crm/CrmDashboardClient.tsx",
+      "src/app/crm/CrmDashboardClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx",
+      "src/app/reception/agenda/page.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Confirm Grant",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Access Restricted: OWNER_ADMIN Privilege Required",
+    "files": [
+      "src/app/admin/page.tsx"
+    ]
+  },
+  {
+    "text": "The System Administration & Audit Explorer workspace contains immutable event logs and high-privilege account management. Switch to the Clinic Administrator account via the Demo Switcher to view this desk.",
+    "files": [
+      "src/app/admin/page.tsx"
+    ]
+  },
+  {
+    "text": "Finance & Cashier Desk",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Invoices · Payments · Reconciliation",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Collect Payment",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Issue Invoice",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Total Invoiced",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "EGP",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/book/page.tsx",
+      "src/app/book/page.tsx",
+      "src/app/branches/[code]/page.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/portal/billing/page.tsx",
+      "src/app/portal/billing/page.tsx",
+      "src/app/portal/billing/page.tsx",
+      "src/app/portal/billing/page.tsx",
+      "src/app/portal/billing/page.tsx",
+      "src/app/portal/billing/page.tsx",
+      "src/app/portal/PatientDashboardClient.tsx",
+      "src/app/portal/PatientDashboardClient.tsx",
+      "src/app/portal/PatientDashboardClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx",
+      "src/components/charts/InteractiveCharts.tsx",
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "bills • Click for details",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Avg Invoice Value",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Collection Rate",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Cash Drawer",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Physical cash · Click details",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Current session cash total at",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Reconcile against physical drawer count.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Digital & POS",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Digital payments · Click details",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Credit/Debit Card",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "InstaPay",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Fawry",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Operating Expenses",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Operating costs · Click details",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Expense/Income Ratio",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Expenses exceed normal ratio.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Invoices (",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Payments &amp; Receipts (",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Drawer Reconciliation",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Operating Expenses (",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "+ End-of-Day Drawer Count",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "+ Record Expense",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Issued Patient Invoices",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "invoices on record",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "No invoices recorded yet.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Invoice #",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/crm/CrmDashboardClient.tsx",
+      "src/app/reception/agenda/page.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Issued Date",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Lines",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Total Amount",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Paid Amount",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Cashier Payment Collections & Receipts",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "posted payments",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "No payments recorded yet.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Receipt #",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Date & Time",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Method",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Amount Collected",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Cashier",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Cash Drawer Reconciliation",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Reconcile physical cash counts.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "System Expected Cash:",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Cash receipts processed today.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Branch Operating Expenses Register",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "expenses recorded",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "No operating expenses logged.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Date",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Payee / Vendor",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Amount",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Notes",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Recorded By",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Issue New Patient Invoice",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Add catalog service lines.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Select Patient *",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Invoice Line Items",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "EGP)",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Invoice Notes",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Collect Patient Payment",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Post receipt to ledger.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient *",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Amount to Collect (EGP) *",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Payment Method *",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Cash (Cashier Drawer)",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Credit / Debit Card POS",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "InstaPay Electronic Transfer",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Fawry Payment Reference",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Receipt Notes / Reference",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Post & Print Receipt",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "End-of-Shift Cash Reconciliation",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Verify physical drawer cash.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Counted Cash Amount (EGP) *",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Discrepancy Explanation Notes",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Record Reconciliation",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Record Operating Expense",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Log clinic operating payout.",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Expense Category *",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinical Supplies & Consumables",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Equipment Maintenance & Repairs",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinic Utilities & Internet",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Branch Facility Rent",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Dental Prosthetic Lab Fees",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Miscellaneous Expense",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Payee / Vendor Name *",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Amount Paid (EGP) *",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Expense Notes / Invoice Reference",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Record Expense",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Access Denied: Staff Financial Authority Required",
+    "files": [
+      "src/app/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "You are signed in as",
+    "files": [
+      "src/app/billing/page.tsx",
+      "src/app/dentist/chart/[patientId]/page.tsx",
+      "src/app/inventory/page.tsx",
+      "src/app/purchasing/page.tsx"
+    ]
+  },
+  {
+    "text": ". Financial operations require receptionist or management authority.",
+    "files": [
+      "src/app/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "EGP 400",
+    "files": [
+      "src/app/book/page.tsx"
+    ]
+  },
+  {
+    "text": "Loading booking flow...",
+    "files": [
+      "src/app/book/page.tsx"
+    ]
+  },
+  {
+    "text": "+ Yrs Exp",
+    "files": [
+      "src/app/branches/[code]/page.tsx"
+    ]
+  },
+  {
+    "text": "WhatsApp",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "text": "MARKETING, CRM & PATIENT RETENTION",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "CRM & Patient Recall Desk",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Inquiries, funnels & recalls.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "All Authorized Branches",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Log Patient Lead",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Inbound Requests",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Triage across all channels.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Qualified & Booked",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "% Conversion · Details",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Attended Visits",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "% Show-Up Rate · Details",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Recall Queue",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Hygiene & post-op · Details",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Inquiries Pipeline (",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient Recalls (",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Engagement Templates",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Log Patient Inquiry",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Channel: Phone Call",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Channel: Website Form",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Channel: WhatsApp Inquiry",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Channel: Walk-In Inquiry",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Save Lead to Pipeline",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient Inquiries & Leads",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Synced from portal forms",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient:",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx",
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Clinic Response:",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx",
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Mark as RESPONDED",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Mark as RESOLVED",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Save Response",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Respond / Update Status",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient Recall Queue",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Hygiene, post-op, recalls.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Recall Reason",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Target Date",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Outreach Action",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Mark Contacted",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Mark Scheduled",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Appointment Conversion Funnel",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Computed from clinic records.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "✓ PHI-safe",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Authentication Required",
+    "files": [
+      "src/app/crm/page.tsx"
+    ]
+  },
+  {
+    "text": "Please sign in with an authorized CRM, Reception, or Executive account.",
+    "files": [
+      "src/app/crm/page.tsx"
+    ]
+  },
+  {
+    "text": "Access Denied: CRM &amp; Retention Authority Required",
+    "files": [
+      "src/app/crm/page.tsx"
+    ]
+  },
+  {
+    "text": "Only authorized CRM, Reception, or Executive staff may access the patient retention and inquiry pipeline.",
+    "files": [
+      "src/app/crm/page.tsx"
+    ]
+  },
+  {
+    "text": "Back to Public Website",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Ebtesamty Role &amp; Workspace Switcher (Demo)",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "One-click instant session switcher across all 7 internal dashboards and the Patient Portal. Seed password:",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Password123!",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Test Public Booking (/book)",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Standard Login Page",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Authoritative Multi-Branch Staffing Model (Egypt):",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "3 Branches (",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "BR-A Heliopolis",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": ": 2 dentists + 1 receptionist;",
+    "files": [
+      "src/app/demo/page.tsx",
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "BR-B New Cairo",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "BR-C Maadi",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": ": 1 dentist + 1 receptionist).",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "All profiles below are clearly labeled fictional demonstration accounts persisted in PostgreSQL.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Open",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "ELECTRONIC DENTAL RECORD (EDR)",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Primary Branch:",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "• Phone:",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Attach Radiograph",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Start Encounter",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Critical Intake Alerts",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "⚠ ALLERGIES NOTED:",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "⚠ BLEEDING / ANTICOAGULANT RISK",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "⚠ CARDIAC CONDITION",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "DIABETIC PATIENT",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "HYPERTENSION",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Reviewing Dentist Note:",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "&quot;",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/reception/agenda/page.tsx",
+      "src/app/reception/agenda/page.tsx",
+      "src/components/clinical/ToothChart.tsx",
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Intake Verified: No contraindications.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Treating Clinician Verified",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "FDI Tooth Chart",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinical Encounters (",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Treatment Plans (",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Radiographs &amp; Records (",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Intake Submissions (",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinical Visit Encounters",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "+ New Encounter",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "No Encounters Recorded Yet",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Start encounter documentation.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Visit on",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "at",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Locked & Immutable",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinician:",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Chief Complaint",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Examination Findings",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinical Procedure Notes",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Signed Clinical Addenda (",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Signed by",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "+ Add Signed Addendum",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Sign & Finalize Encounter",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Treatment Plans",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Procedures and estimated costs.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "+ Create Treatment Plan",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "No Treatment Plans Established",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Create staged treatment plan.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Established by",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "on",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Estimated Total",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Staged Procedural Items",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Tooth #",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx",
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Estimated:",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Diagnostic Radiographs & Files",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Radiographs and consent artifacts.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "+ Attach Radiograph / Document",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "No Radiographs Uploaded",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Attach radiographs or files.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Verified Medical Intake Questionnaire",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Submission Version",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Submission Date",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Questionnaire Responses",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "No medical intake history.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Start New Clinical Encounter",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Initialize draft encounter record.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Branch Location",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Chief Complaint *",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Examination Findings *",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Provisional Diagnosis",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinical Treatment Notes *",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Save Draft Encounter",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Sign & Finalize Clinical Encounter",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Finalizing locks encounter record.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Finalized Clinical Diagnosis *",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Confirm & Lock Encounter",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Attach Signed Addendum",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Add append-only signed notes.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Addendum Text *",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Sign & Append Addendum",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Create Treatment Plan",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Define staged procedures & costs.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Plan Title *",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "General Notes",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Planned Procedures",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "+ Add Procedure Stage",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Save Treatment Plan",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Attach Radiograph / Diagnostic File",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Attach diagnostic imaging files.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "File Name *",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Category *",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Panoramic Radiograph (OPG)",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Periapical Radiograph (PA)",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Intraoral Clinical Photograph",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Dental Lab / Shade Guide",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "SignedInformed Consent Artifact",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Radiology Notes",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Attach Document",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Access Denied: Clinician Role Required",
+    "files": [
+      "src/app/dentist/chart/[patientId]/page.tsx",
+      "src/app/dentist/page.tsx"
+    ]
+  },
+  {
+    "text": ". Patient charts are restricted to authorized clinical staff.",
+    "files": [
+      "src/app/dentist/chart/[patientId]/page.tsx"
+    ]
+  },
+  {
+    "text": "CLINICAL WORKSPACE &amp; CHAIRSIDE OPERATORY",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Chairside clinical operatory workspace.",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Open Chart (",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Report Issue",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Waiting Queue",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Pending Intakes",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Operatory Alerts",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Patients in Lounge:",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "No patients waiting currently.",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Intakes Awaiting Review:",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "All intakes reviewed.",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Review Now",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Operatory Equipment Alerts:",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "✓ All equipment operational.",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "FAULT REPORTED",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Dismiss",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/portal/feedback/PortalFeedbackClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Waiting for Me",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Here",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Queue clear",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Next:",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Call Patient",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Start Exam",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Complete Visit",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Assigned Patient Roster",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "patients",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "DOB:",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Assigned patient",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Open EDR",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Review chart →",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Interactive FDI Odontogram Overview",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Full Charting →",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Maxillary (Upper Arch)",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Mandibular (Lower Arch)",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Chart #",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Medical context",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Review health information",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Inspect allergies & precautions.",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Open intake history",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Encounter notes",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient chart",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Record clinical encounter",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Document findings & treatment.",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Continue documentation",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Visit Action Checklist",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Review required",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Review steps in patient chart",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Encounter",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Open full clinical workspace",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Pending Intake Reviews",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "All patient intakes signed off.",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Inspect Answers",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Sign Off",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinician Review Sign-Off (Version",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "✓ Approve as Reviewed",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "⚠ Request Clarification",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinician Notes &amp; Directives *",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Report Operatory Fault",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Operatory Asset",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Impact Severity",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Minor",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Major",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Critical",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Fault Description *",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "You are currently signed in as",
+    "files": [
+      "src/app/dentist/page.tsx",
+      "src/app/management/page.tsx",
+      "src/app/reception/page.tsx"
+    ]
+  },
+  {
+    "text": "). The Dentist Clinical Desk is strictly restricted to authorized licensed dental surgeons.",
+    "files": [
+      "src/app/dentist/page.tsx"
+    ]
+  },
+  {
+    "text": "Switch to Dentist Demo Account (Dr. Sandy Saad)",
+    "files": [
+      "src/app/dentist/page.tsx"
+    ]
+  },
+  {
+    "text": "3 Cairo Branches",
+    "files": [
+      "src/app/emergency/page.tsx"
+    ]
+  },
+  {
+    "text": "Chairs",
+    "files": [
+      "src/app/emergency/page.tsx"
+    ]
+  },
+  {
+    "text": "Direct Hotline:",
+    "files": [
+      "src/app/emergency/page.tsx"
+    ]
+  },
+  {
+    "text": "No questions found matching your search. Please reach out to our reception team directly.",
+    "files": [
+      "src/app/faqs/page.tsx"
+    ]
+  },
+  {
+    "text": "PURCHASING & INVENTORY CONTROL",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Purchasing and Inventory",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Lots, expiry, transfers, POs.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Refresh",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "All Inventory Analysis",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "To Expire Soon",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Expiring ≤ 30 days",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Items Expired",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Quarantine hold",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Completed PO",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Received in full",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Rejected PO",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Defect returned",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Pending PO",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Vendor delivery",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Low Stock Alert",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Below reorder pt",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Stock on Hand",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Inter-Branch Transfers",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Purchase Orders",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Catalog &amp; Suppliers",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Stock Balances for",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Lots, expirations & inventory levels.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Stock Adjustment / Waste",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "materials",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "have fallen below their configured reorder points in this branch. Initiate a purchase order or request an inter-branch transfer.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "SKU / Item",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Unit",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Reorder Point",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "On Hand & Threshold",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Lots & Expiries",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "No active lots",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "(Exp:",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Low Stock",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Optimal",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "+ Reorder PO",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "No materials cataloged.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Inter-Branch Stock Transfers",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Track branch stock transfers.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Request Stock Transfer",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Item & Quantity",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Source Branch",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Destination Branch",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Requested By",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Actions",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx",
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Qty:",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Ship Out",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Receive In",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Completed",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "No inter-branch transfers requested yet.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Procurement & Purchase Orders",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Supplier orders & receipts.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Create Purchase Order",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "PO Number",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Supplier",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Line Items",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Total (EGP)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "received",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Receive Goods",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Fulfilled",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "No purchase orders issued yet.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Suppliers Directory",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Approved vendor and distributor contacts.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Add Supplier",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Contact:",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Materials Master Catalog",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Standard items & reorder levels.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Add Material",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Category:",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "• Unit:",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Reorder at &le;",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Record Stock Movement / Adjustment",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Adjust inventory lots.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Material",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Lot Number",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Movement Type",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Add Stock (Purchase / Direct)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Correction (+/-)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Deduct (Clinical Waste / Breakage)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Deduct (Expired Shelf Life)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Quantity (",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinical / Warehouse Notes",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Save Adjustment",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Request Inter-Branch Stock Transfer",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Transfer items from source branch (",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": ") to destination branch.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Material to Transfer",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Quantity",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Transfer Notes",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Submit Request",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Ship Inter-Branch Transfer",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Ship stock transfer lot.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Source Lot Number",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Confirm Dispatch",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Receive Transfer In",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Receive transfer stock lot.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Destination Lot Number",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Expiry Date",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Accept Goods",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Generate sequential PO.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Order Line Items",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Add Line",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Notes / Instructions",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Issue Purchase Order",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Log Goods Receipt for",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Log goods receipt lot.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Accepted Qty",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Rejected Qty",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Commit Goods Receipt",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Add Material to Catalog",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Define item SKU catalog.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "SKU",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Name (English)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Name (Arabic)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Composites",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Anesthetics",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Endodontics",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Impression",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "PPE",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Surgical",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Syringe",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Box",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Pack",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Bottle",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Bag",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Piece",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Unit Cost (EGP)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Register Supplier",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Add distributor profile.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Company Name",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Contact Person",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Phone Number",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Email",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Address / Notes",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Save Supplier",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Access Denied: Inventory Authority Required",
+    "files": [
+      "src/app/inventory/page.tsx"
+    ]
+  },
+  {
+    "text": ". Inventory management requires clinic staff or management authority.",
+    "files": [
+      "src/app/inventory/page.tsx"
+    ]
+  },
+  {
+    "text": "No authorized branch.",
+    "files": [
+      "src/app/inventory/page.tsx"
+    ]
+  },
+  {
+    "text": "LEADERSHIP &amp; EXECUTIVE MANAGEMENT",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Good Morning,",
+    "files": [
+      "src/app/management/ManagementClient.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Consolidated multi-branch performance overview.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "All Branches",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Africa/Cairo",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Production KPIs",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Practice velocity",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Appointments",
+    "files": [
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Recorded appointments",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Treatments",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Completed treatment items",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Chair Time",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Recorded visit duration",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Collection",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Collected / invoiced",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Financial Audit Details",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Gross Billed",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Collections Posted",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Operating Surplus",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Visit outcomes",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Recorded appointment outcomes",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "completed visits",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "missed visits",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Complication Rate:",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Not measured",
+    "files": [
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient Post-Op Score:",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Emergency Triage:",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Priority Action Queue",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Executive decision queue.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "All Alerts (",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Triage Action",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "All branches normal.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "KPI Benchmarks",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Alerts (",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Feedback (",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Duplicates (",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Verification (",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Operations",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Branch Performance",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Comparative multi-branch analysis.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Billed EGP",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Collected EGP",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Expenses EGP",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Financial Comparison",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Cumulative Ledger",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Billed Charges",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Collected Cash/Card",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Net Collections Less Recorded Expenses:",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Operational Alerts",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Real-time clinic bottlenecks.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Triggered",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Open Equipment Desk",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Resolve Alert",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinics operating smoothly.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient Feedback",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient satisfaction cases.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Draft Response",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "No feedback logged.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "vs",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "• Candidate duplicate",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Resolve in Reception",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient registry clean.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "wants to link online account",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "• Requested verification",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Verify at Reception",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Online accounts verified.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Operational Workspaces",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Direct department access.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Inventory & Stock",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Lot tracking & replenishment",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Purchasing & Orders",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Supplier requisitions & POs",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Equipment Maintenance",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Chair and sensor logs",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Finance & Billing",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Invoices, ledgers & collections",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "System Administration",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Role grants & audit",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinical Privacy Boundary Enforced:",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Zero-PHI aggregate reporting only.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Respond to Patient:",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Visible in patient portal.",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient Visible Response",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Internal Staff Notes",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Dispatch Response",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Access Denied: Management Role Required",
+    "files": [
+      "src/app/management/page.tsx"
+    ]
+  },
+  {
+    "text": "). Operational Management is strictly restricted to Branch Managers and Clinic Executives.",
+    "files": [
+      "src/app/management/page.tsx"
+    ]
+  },
+  {
+    "text": "Switch to Branch Manager Demo Account (Amr Fouad)",
+    "files": [
+      "src/app/management/page.tsx"
+    ]
+  },
+  {
+    "text": "STEP",
+    "files": [
+      "src/app/new-patients/page.tsx"
+    ]
+  },
+  {
+    "text": "Comprehensive Consultation",
+    "files": [
+      "src/app/new-patients/page.tsx"
+    ]
+  },
+  {
+    "text": "400 EGP",
+    "files": [
+      "src/app/new-patients/page.tsx"
+    ]
+  },
+  {
+    "text": "Includes full examination &amp; charting",
+    "files": [
+      "src/app/new-patients/page.tsx"
+    ]
+  },
+  {
+    "text": "BIOMEDICAL ASSETS &amp; OPERATORY MAINTENANCE",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Equipment &amp; Operatories Desk",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Asset register, fault reporting, work orders dispatch, and return-to-service safety verification.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Register Asset",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Total Registered Assets",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Dental chairs, autoclaves, X-rays",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Faults",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Equipment out of service",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Work Orders",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "In biomedical repair",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Safety Cleared",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Safe for patient treatment",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Operatory Assets (",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Faults (",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Work Orders (",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Total Assets",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Operational",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Down / Maint",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Open Faults",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Orders",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Equipment Assets in",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Critical medical devices, operatory chairs, sterilizers, and imaging units.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Register New Asset",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Last Service:",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Next Due:",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Safety Fault:",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Report Fault",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Work Order",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Reported Equipment Faults",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Active issues impacting clinical operatory safety. Critical faults enforce immediate OUT_OF_SERVICE lock.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Device & Serial",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Fault Description",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Severity",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Reported By",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Dispatch Repair",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "All equipment operating safely. Zero active faults reported.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Maintenance Work Orders (DFD 11)",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Technician dispatch, corrective repairs, downtime hours, and return-to-service verifications.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Asset & Type",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Technician Details",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Repair Notes",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Cost (EGP)",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx",
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Log Completion",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Verify Return",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Cleared",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "No maintenance work orders dispatched yet.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Report Safety Fault:",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Critical issues immediately transition device to OUT_OF_SERVICE.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Fault Severity",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Critical (Immediate Out of Service / Safety Risk)",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Major (Restricted Clinical Use)",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Minor (Cosmetic / Operational Quirk)",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Detailed Description",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Submit Report",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Dispatch Technician:",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Assign corrective or preventive maintenance to technician.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Technician / Vendor Name",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Technician Phone",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Maintenance Type",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Corrective Repair",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Preventive Calibration / Scheduled",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Dispatch Instructions",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Dispatch Work Order",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Log Repair Completion:",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Enter recorded downtime hours, repair invoice cost, and parts replaced.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Downtime Hours",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Technician Repair Notes",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Submit for Verification",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Verify & Return to Service",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Authorizing return to service will restore device status to OPERATIONAL and record",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "EGP into clinic expenses.",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Manager Signoff Notes",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Authorize Return to Service",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Register Operatory Asset",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Add a clinical device or operatory chair to",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Device Name",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Serial Number",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Model",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Dental Chair",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Autoclave",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Compressor",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "X-Ray Unit",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Laser Unit",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Handpiece Unit",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Criticality",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "High (Mandatory)",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Medium",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Low",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "YOUR BEST",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "DENTAL HEALTH COMPANION.",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "[ PHILOSOPHY & CLINICAL RIGOR ]",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "EMPI",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "[ 01 • CLINICAL DISCIPLINES ]",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "[ 02 • INTERACTIVE CLINICAL PROTOCOLS ]",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "[ 03 • SEAMLESS CARE PATHWAY ]",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "[ 04 • PRACTICE LOCATIONS ]",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "[ 05 • CLINICAL FACULTY ]",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "[ 06 • PATIENT QUESTIONS ]",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "visits",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Loading appointments...",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "&ldquo;",
+    "files": [
+      "src/app/portal/appointments/page.tsx",
+      "src/app/portal/appointments/page.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "&rdquo;",
+    "files": [
+      "src/app/portal/appointments/page.tsx",
+      "src/app/portal/appointments/page.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Confirmed Booking Details:",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Date:",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Time:",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "min)",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Reception Offered Alternative Slot:",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Accept Alternative Slot",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Decline",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Requested:",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Awaiting staff review",
+    "files": [
+      "src/app/portal/appointments/page.tsx"
+    ]
+  },
+  {
+    "text": "Billing Account Verification Pending",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Your online account is not yet linked to an active clinical record. Please present your National ID to the receptionist during your visit to view your statements.",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Return to Portal",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Patient Billing & Receipts",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Verified Patient Account",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Total Invoiced Procedures",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Invoices Issued",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Total Payments Settled",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Receipts Reconciled",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Current Outstanding Balance",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Accepted Payment Channels: Cash (Front Desk) • Visa / Mastercard • InstaPay Direct",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "EGP Minor Unit Accounting",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Invoiced Dental Procedures & Receipts",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "invoices",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "No treatment invoices have been generated for your record yet.",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Issued on",
+    "files": [
+      "src/app/portal/billing/page.tsx",
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "(Tooth #",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Settled:",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Patient Feedback &amp; Support",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Inquiries, Verified Visit Reviews, and Quality Concerns",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Direct to Clinic Executive",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Send Message or Review to Clinic Management",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Your feedback is reviewed directly by our clinic directors to ensure clinical excellence and continuous improvement.",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Zero-Fabrication Policy",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Clinic Branch *",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Feedback Nature",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Inquiry",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Review",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Complaint",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Overall Visit Satisfaction",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "out of 5 Stars",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Subject *",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Message Details *",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "All complaints receive management escalation within 24 hours.",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Submit Message",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Your Past Submissions & Management Responses",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Response from Clinic Executive:",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "You haven&apos;t submitted any inquiries or reviews yet.",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Pre-Visit Medical & Dental History",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Reception Assisted Entry",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "This intake is being entered by reception staff assisting an in-clinic patient. The submission will be stamped with reception attribution and flagged for mandatory clinician review prior to treatment.",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Step",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "of 5",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "1. Medical Conditions & Chronic Illnesses",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Indicate if you have ever been diagnosed with or treated for any of the following:",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "2. Allergies & Adverse Drug Reactions",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Critical safety check: Are you allergic to any of these medications or dental materials?",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "3. Current Medications & Physiological Status",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Certain drugs impact bleeding or bone healing during dental surgery.",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "List All Prescriptions, Inhalers, or Over-the-Counter Supplements",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "4. Dental History & Reason for Visit",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Help your doctor prepare by explaining your symptoms and past dental experiences.",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Chief Complaint / Reason for Appointment",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Dental Anxiety or Fear Level",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "None — Comfortable with dental visits",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Mild — Slight nervous anticipation",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Moderate — Sensitive to needles or drilling sounds",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Severe — High phobia / extreme anxiety",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Previous Dental Complications or Difficulties",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "5. Review Your Health Summary Before Submission",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Please verify that the information below is accurate. Once submitted, this creates an immutable clinical record version.",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Flagged Medical Conditions",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": ": YES (",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": ": UNKNOWN",
+    "files": [
+      "src/app/portal/intake/page.tsx",
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "None flagged as positive or unknown.",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Allergies",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": ": ALLERGIC (",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "No drug or material allergies indicated.",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Medications & Chief Complaint",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Current Medications:",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Chief Complaint:",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Dental Anxiety:",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Clinical Immutability Notice:",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Submitting creates a permanent, timestamped medical history version. Your treating doctor will review this submission prior to treatment. If your medical condition changes in the future, you can submit an updated version at any time without erasing this historical record.",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Loading Medical Intake Form...",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "STEP 1",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "DRAFT",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Manage bookings & offers",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Financial Records & Payment Plans",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Invoices, receipts & installments",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Showing",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "procedures in Egyptian Pounds (EGP)",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "All 3 Cairo Branches",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "Cash at Front Desk (EGP)",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "Official computerized receipt generated immediately upon payment.",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "Credit &amp; Debit POS Terminals",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "Visa, Mastercard, and Meeza electronic card payments accepted across all desks.",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "InstaPay Egypt &amp; Electronic Transfers",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "Instant verified transfer via Central Bank of Egypt InstaPay network with instant confirmation.",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "Patient Portal Billing Ledger:",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "All invoices, partial receipts, and upcoming milestone installments are tracked in real time in your verified Patient Portal account.",
+    "files": [
+      "src/app/pricing/page.tsx"
+    ]
+  },
+  {
+    "text": "Access Denied: Procurement Role Required",
+    "files": [
+      "src/app/purchasing/page.tsx"
+    ]
+  },
+  {
+    "text": ". The Purchasing & Procurement Desk is restricted to authorized clinic procurement staff and management.",
+    "files": [
+      "src/app/purchasing/page.tsx"
+    ]
+  },
+  {
+    "text": "PROCUREMENT &amp; DENTAL SUPPLIES",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Purchasing &amp; Supplier Orders",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Purchase requests, purchase order issuance, vendor lead times, and 3-way goods receiving match.",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Active &amp; Historic Purchase Orders",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "orders on file",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Date Issued",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "PO Workflow Status",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "No purchase orders recorded. Click &quot;Create Purchase Order&quot; to begin.",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Select Supplier",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Item #",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Notes / Quotation Reference",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Receive Delivery for PO #",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "OPERATORY SCHEDULE &amp; TRIAGE AGENDA",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Reception Scheduling Calendar",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Multi-dentist operatory room allocations, doctor duty shifts, and incoming patient booking requests.",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Operatory Grid",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Request Inbox",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Branch A — Heliopolis",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Branch B — New Cairo",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Branch C — Maadi",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Branch Capacity",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Operatories",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Specialists Assigned",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Scheduled Today",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Consultations",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Across active operatory suites",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Pending Triage Review",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Requests",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Awaiting slot confirmation",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Operating Hours",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Receptionist:",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Operatory &amp; Specialist Daily Agenda Grid",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Column-by-specialist operatory occupancy. Green blocks represent confirmed appointments; light mint slots are available.",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Confirmed / Active",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Open Slot",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Time Slot",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Operatory Suite",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "• Operatory",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Confirmed",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Available Slot",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "45 Min Session",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Pending Patient Visit Requests (",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Scope:",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Verify doctor duty and room capacity before confirming appointments. Propose an alternative if the requested time slot is unavailable.",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Loading requests...",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "No pending appointment requests for this branch.",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Requested Service",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Preferred Date / Window",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Review &amp; Schedule",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Processed",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Receptionist Triage",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Process Request:",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Requested Service:",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Patient Note:",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Triage Action *",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Attending Specialist *",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Date *",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Time *",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Proposed Date *",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Proposed Time *",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Receptionist Notes",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Complete Action",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Access Denied: Receptionist Role Required",
+    "files": [
+      "src/app/reception/page.tsx"
+    ]
+  },
+  {
+    "text": "). The Reception Desk is strictly restricted to authorized clinic receptionists and administrators.",
+    "files": [
+      "src/app/reception/page.tsx"
+    ]
+  },
+  {
+    "text": "Switch to Receptionist Demo Account",
+    "files": [
+      "src/app/reception/page.tsx"
+    ]
+  },
+  {
+    "text": "FRONT DESK &amp; CLINIC RECEPTION",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "• Live patient arrivals, queue verification, appointment agenda, and desk checkout.",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Agenda Calendar",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Register Patient",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Identity Tasks (",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Ctrl K",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Expected",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Click to filter",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "In Lounge",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "In Chair",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Checkout",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Results: &ldquo;",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "&rdquo; (",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Click row to check-in",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient ID",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Full Legal Name",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Date of Birth",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Phone",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Record Status",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Next Action",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Verify Shared Phone/Name",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Review & Verify",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "No existing clinic file matched",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Create Patient & Continue Check-In",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Today&apos;s Appointment &amp; Arrival Board",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Live operatory allocation and reception arrival queue • (",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "visits)",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "No matching visits (",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Search or switch filter.",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Time / Slot",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Treating Dentist",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Procedure / Reason",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Flow Status",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Primary Action",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Verify &amp; Check In",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Send to Operatory",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Move to Checkout",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Record Payment",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Pending Appointment Requests (",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Review in Appointments",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "All requests processed.",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Assign Slot",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Doctor Coverage &amp; Duty Windows (",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Manage Roster",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Standard clinician coverage active for",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Portal Link Verification Requests",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Duplicate Candidate Hints",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Portal Account:",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Verify &amp; Approve",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Reject",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Confirm Distinct People (Family/Shared Phone)",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Identity Verification Details",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Primary Phone:",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Date of Birth:",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "File Status:",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Reception Point-of-Care Actions",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Verify Arrival & Queue",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient Checkout",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Assist Medical Intake",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Close Drawer (ESC)",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Register New Patient",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Creates patient record.",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Full Legal Name *",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Primary Telephone *",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Date of Birth *",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Gender",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Male",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Female",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "National ID / Passport",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Faculty",
+    "files": [
+      "src/app/services/[slug]/page.tsx"
+    ]
+  },
+  {
+    "text": "Operatories •",
+    "files": [
+      "src/app/services/[slug]/page.tsx"
+    ]
+  },
+  {
+    "text": "Isolated Vendor Access · Zero Clinical PHI",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Supplier Fulfillment & Dispatch Portal",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "External logistics view for authorized medical suppliers. Track issued purchase orders, confirm delivery ETAs, update dispatch statuses, and coordinate direct goods drop-off at clinic branches without exposure to clinical or internal clinic financial data.",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Vendor Profile",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Vendor Organization",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Contact Phone",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Contact Email",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "All Statuses",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "ISSUED (Awaiting Dispatch)",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "PARTIALLY_RECEIVED",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "RECEIVED (Delivered)",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "CANCELLED",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Purchase Orders Assigned to You",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "order",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "No purchase orders found matching the filter criteria.",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Issued:",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "distinct item line",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "units fulfilled)",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Purchase Order Detail",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Delivery Destination Branch",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Items to Deliver (Quantities Only)",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Recv:",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Vendor Fulfillment Actions",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Confirm ETA / Dispatch",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Mark as Delivered",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Notes / Instructions:",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Select an order from the list",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "View delivery location, ordered material quantities, and dispatch fulfillment status.",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "No time-series financial data available for the selected filter.",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Invoiced (",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Collected (",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Expenses (",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Invoiced:",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Collected:",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Expenses:",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Net Cashflow:",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Hover or focus on any period bar group below to inspect exact EGP Invoiced, Collected, Expenses, and Net Cashflow.",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "No recorded values in this period.",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Stage-to-Stage Attribution",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Outstanding Patient Balances &amp; Receivables Aging",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Unpaid invoice balances grouped by days since invoice issuance",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "Total Receivables",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "FDI Two-Digit Odontogram (Adult Dental Chart)",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Real-time Charting",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Standard ISO 3950 / FDI two-digit clinical notation. Select any tooth to review findings history or record pathologies.",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Caries",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Restored",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "RCT",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Missing",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Healthy",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Maxillary Right (Q1)",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Upper Arch",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Maxillary Left (Q2)",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Mandibular Right (Q4)",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Lower Arch",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Mandibular Left (Q3)",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Details & History",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Current Status:",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "✕ Close Inspector",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Chronological Findings History",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Surface:",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Recorded by:",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "No historical findings recorded for tooth #",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": ". Assumed healthy.",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Record New Pathology / Restoration",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Condition",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "CARIES (Active Cavity)",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "RESTORED (Filling / Inlay)",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "ROOT CANAL TREATED",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "FRACTURED / CRACKED",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "MISSING / EXTRACTED",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "HEALTHY / SOUND",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Surface (e.g. MOD, O, B)",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Clinical Observation Notes",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Save Tooth #",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Finding",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "Ebtesamty Clinical & Operational Platform",
+    "files": [
+      "src/components/Footer.tsx"
+    ]
+  },
+  {
+    "text": "Africa/Cairo • EGP",
+    "files": [
+      "src/components/Footer.tsx"
+    ]
+  }
+]

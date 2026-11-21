@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cmvtqfxqz0007lhvkc6ssl38n",
+    "email": "finance@ebtesamty.dev",
+    "roleGrants": [
+      {
+        "id": "cmvtqfxqz0009lhvkhjmrsctx",
+        "userId": "cmvtqfxqz0007lhvkc6ssl38n",
+        "role": "OWNER_ADMIN",
+        "branchId": null,
+        "grantedAt": "2026-10-29T16:03:15.228Z",
+        "grantedBy": null
+      }
+    ]
+  },
+  {
+    "id": "cmvtqfxr4000blhvks9dswdaa",
+    "email": "inventory@ebtesamty.dev",
+    "roleGrants": [
+      {
+        "id": "cmvtqfxr4000dlhvk2wi7mrfi",
+        "userId": "cmvtqfxr4000blhvks9dswdaa",
+        "role": "OWNER_ADMIN",
+        "branchId": null,
+        "grantedAt": "2026-10-29T16:03:15.233Z",
+        "grantedBy": null
+      }
+    ]
+  },
+  {
+    "id": "cmvtqfxr9000flhvko7ee9swd",
+    "email": "crm@ebtesamty.dev",
+    "roleGrants": [
+      {
+        "id": "cmvtqfxr9000hlhvkfwnwrndk",
+        "userId": "cmvtqfxr9000flhvko7ee9swd",
+        "role": "OWNER_ADMIN",
+        "branchId": null,
+        "grantedAt": "2026-10-29T16:03:15.237Z",
+        "grantedBy": null
+      }
+    ]
+  },
+  {
+    "id": "cmvtqfxre000jlhvk33c6jeud",
+    "email": "sysadmin@ebtesamty.dev",
+    "roleGrants": [
+      {
+        "id": "cmvtqfxre000llhvksn503k8t",
+        "userId": "cmvtqfxre000jlhvk33c6jeud",
+        "role": "OWNER_ADMIN",
+        "branchId": null,
+        "grantedAt": "2026-10-29T16:03:15.242Z",
+        "grantedBy": null
+      }
+    ]
+  }
+]

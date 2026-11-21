@@ -1,0 +1,1 @@
+const fs=require('fs');let p='src/app/management/ManagementClient.tsx',s=fs.readFileSync(p,'utf8').replace('color="#854D0E"','color="#B42318"').replace('trackColor="#FEF9C3"','trackColor="#FEE4E2"').replace('text-amber-800 bg-amber-100 px-2.5','text-red-800 bg-red-100 px-2.5');fs.writeFileSync(p,s);

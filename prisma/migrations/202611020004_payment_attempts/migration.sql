@@ -1,0 +1,2 @@
+CREATE TYPE "PaymentAttemptStatus" AS ENUM ('PENDING','SUCCEEDED','FAILED');
+CREATE TABLE "payment_attempts" ("id" TEXT PRIMARY KEY,"invoiceId" TEXT NOT NULL REFERENCES invoices(id),"paymentId" TEXT REFERENCES payments(id),"providerReference" TEXT NOT NULL UNIQUE,"amountPiasters" INTEGER NOT NULL CHECK ("amountPiasters">0),"status" "PaymentAttemptStatus" NOT NULL,"attemptedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,"failureReason" TEXT);

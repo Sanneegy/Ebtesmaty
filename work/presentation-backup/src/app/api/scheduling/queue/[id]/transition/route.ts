@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server';import {getCurrentUser} from '@/lib/auth';import {transitionVisit} from '@/services/visit.service';
+export async function POST(req:Request,{params}:{params:{id:string}}){try{const user=await getCurrentUser();if(!user)return NextResponse.json({error:'Sign in to continue.'},{status:401});const body=await req.json();return NextResponse.json({queueEntry:await transitionVisit(params.id,body.action,user)});}catch(e:any){return NextResponse.json({error:e.message},{status:e.statusCode||400});}}

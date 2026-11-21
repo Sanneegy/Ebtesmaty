@@ -1,0 +1,2 @@
+const fs=require('fs');for(const p of ['src/services/clinical.service.ts'])fs.writeFileSync(p,fs.readFileSync(p,'utf8').replaceAll('updatedAt:existing.updatedAt','clinicalNotes:existing.clinicalNotes'));
+const p='src/components/Navbar.tsx';fs.writeFileSync(p,fs.readFileSync(p,'utf8').replace('tel:+20224100001','tel:+20224150001').replace('aria-label="Toggle menu"',"aria-label={isAr?'فتح أو إغلاق القائمة':'Open or close menu'}"));

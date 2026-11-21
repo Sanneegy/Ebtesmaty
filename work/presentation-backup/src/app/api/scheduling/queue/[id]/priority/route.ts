@@ -1,0 +1,6 @@
+import { NextResponse } from 'next/server';
+import db from '@/lib/db';
+import { getCurrentUser } from '@/lib/auth';
+import { requireRole } from '@/lib/rbac';
+import { z } from 'zod';
+export async function POST(req:Request,{params}:{params:{id:string}}){try{const user=await getCurrentUser();const {reason,priority}=z.object({reason:z.string().trim().min(5).max(300),priority:z.boolean()}).parse(await req.json());const entry=await db.queueEntry.findUniqueOrThrow({where:{id:params.id}});requireRole(user,['DENTIST'],entry.branchId);if(!user!.roleGrants.some(g=>g.role==='DENTIST') || entry.dentistUserId!==user!.id)return NextResponse.json({error:'Only the treating dentist can change clinical priority.'},{status:403});const result=await db.$transaction(async tx=>{const updated=await tx.queueEntry.update({where:{id:entry.id},data:{clinicalPriority:priority,priorityReason:reason,priorityByUserId:user!.id,priorityAt:new Date()}});await tx.auditEvent.create({data:{actorUserId:user!.id,action:'CLINICAL_QUEUE_PRIORITY_CHANGED',entityType:'QueueEntry',entityId:entry.id,branchId:entry.branchId,metadataJson:{priority,reasonRecorded:true}}});return updated;});return NextResponse.json(result);}catch(e:any){return NextResponse.json({error:e.message},{status:e.statusCode||400});}}

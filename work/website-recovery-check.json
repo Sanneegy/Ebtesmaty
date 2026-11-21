@@ -1,0 +1,50 @@
+[
+  {
+    "route": "/portal",
+    "status": 200,
+    "browserErrors": [],
+    "overflow": false
+  },
+  {
+    "route": "/reception",
+    "status": 200,
+    "browserErrors": [],
+    "overflow": false
+  },
+  {
+    "route": "/dentist",
+    "status": 200,
+    "browserErrors": [],
+    "overflow": false
+  },
+  {
+    "route": "/management",
+    "status": 200,
+    "browserErrors": [],
+    "overflow": false
+  },
+  {
+    "route": "/billing",
+    "status": 200,
+    "browserErrors": [],
+    "overflow": false
+  },
+  {
+    "route": "/inventory",
+    "status": 200,
+    "browserErrors": [],
+    "overflow": false
+  },
+  {
+    "route": "/crm",
+    "status": 200,
+    "browserErrors": [],
+    "overflow": false
+  },
+  {
+    "route": "/admin",
+    "status": 200,
+    "browserErrors": [],
+    "overflow": false
+  }
+]

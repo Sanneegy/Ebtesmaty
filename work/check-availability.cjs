@@ -1,0 +1,1 @@
+require('dotenv').config();const{PrismaClient}=require('@prisma/client');const d=new PrismaClient();(async()=>{console.log(JSON.stringify(await d.doctorDuty.findMany({where:{dutyDate:{gte:new Date('2026-11-01')}},take:8,orderBy:{dutyDate:'asc'},select:{dutyDate:true,startTime:true,endTime:true,status:true}})));})().finally(()=>d.$disconnect());

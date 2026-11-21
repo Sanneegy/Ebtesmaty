@@ -1,0 +1,59 @@
+const fs=require('fs'),crypto=require('crypto'),assert=require('assert/strict'),{PrismaClient}=require('@prisma/client'),{chromium}=require('playwright');
+const url=new URL(fs.readFileSync('.env','utf8').match(/^DATABASE_URL\s*=\s*(.+)$/m)[1].trim().replace(/^["']|["']$/g,''));url.pathname='/ebtesamty_ux_verification';const db=new PrismaClient({datasourceUrl:url.toString()});
+(async()=>{let material,session,browser,orderId;try{const branch=await db.branch.findUniqueOrThrow({where:{code:'BR-A'}}),actor=await db.roleGrant.findFirstOrThrow({where:{role:'INVENTORY',OR:[{branchId:branch.id},{branchId:null}]}}),sku='REORDER-QA-'+Date.now();material=await db.material.create({data:{sku,nameEn:'Reorder verification gloves',nameAr:'قفازات اختبار',category:'HYGIENE',unit:'BOX',reorderPoint:10,unitCostPiasters:10000,lots:{create:{branchId:branch.id,lotNumber:sku,expiryDate:new Date(Date.now()+86400000*180),quantityOnHand:6}}}});session=await db.session.create({data:{userId:actor.userId,token:crypto.randomUUID(),expiresAt:new Date(Date.now()+180000)}});
+browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});const context=await browser.newContext();await context.addCookies([{name:'ebtesamty_session',value:session.token,url:'http://localhost:3002'}]);const page=await context.newPage();await page.goto('http://localhost:3002/inventory?view=low');const card=page.locator('article').filter({hasText:sku}).filter({hasText:'BR-A'});await card.waitFor();assert((await card.innerText()).includes('Below reorder point'));assert((await card.innerText()).includes('Not configured'));await card.getByRole('button',{name:'Set lead time',exact:true}).click();await card.locator('input[type=number]').fill('7');await card.getByRole('button',{name:'Save',exact:true}).click();await page.waitForResponse(r=>r.url().includes('/inventory?'));assert.equal((await db.material.findUniqueOrThrow({where:{id:material.id}})).leadTimeDays,7);await page.screenshot({path:'work/reorder-numbers.png',fullPage:true});await card.getByRole('link',{name:'Reorder',exact:true}).click();await page.waitForURL('**/purchasing?**');await page.locator('form').last().waitFor();assert.equal(new URL(page.url()).searchParams.get('quantity'),'5');assert((await page.locator('select').evaluateAll(xs=>xs.map(x=>x.value))).includes(material.id));assert((await page.locator('input[type=number]').evaluateAll(xs=>xs.map(x=>x.value))).includes('5'));const createdResponse=page.waitForResponse(r=>r.url().endsWith('/api/inventory/orders')&&r.request().method()==='POST');
+await page.getByRole('button',{name:'Submit Purchase Order',exact:true}).click();
+const result=await createdResponse;
+assert.equal(result.status(),201,await result.text());
+const payload=await result.json();
+orderId=payload.order.id;
+await page.getByText('Purchase Order #'+payload.order.poNumber+' created successfully.',{exact:true}).waitFor();
+assert.equal(await db.purchaseOrder.count({where:{lines:{some:{materialId:material.id}}}}),1);
+assert(await page.getByText(payload.order.poNumber,{exact:true}).isVisible());
+
+await page.goto('http://localhost:3002/inventory?view=low');
+let pendingCard=page.locator('article').filter({hasText:sku}).filter({hasText:'BR-A'});
+const valueFor=async(label)=>pendingCard.getByText(label,{exact:true}).locator('..').locator('dd').innerText();
+await pendingCard.waitFor();
+assert.equal((await valueFor('On order / awaiting delivery')).trim(),'5 BOX');
+assert.equal((await valueFor('Projected stock after delivery')).trim(),'11 BOX');
+assert.equal((await db.stockLot.aggregate({where:{materialId:material.id,branchId:branch.id},_sum:{quantityOnHand:true}}))._sum.quantityOnHand,6);
+let receiptStep=0;
+async function receive(quantity,lotNumber){
+ const route=receiptStep++===0?'/inventory?view=replenishment':'/purchasing';
+ await page.goto('http://localhost:3002'+route);
+ const orderRow=page.locator('tr').filter({hasText:payload.order.poNumber});
+ await orderRow.getByRole('button',{name:'Receive Goods',exact:true}).click();
+ const form=page.locator('form').filter({has:page.locator('input[type=date]')}).last();
+ await form.locator('input[type=text]').first().fill(lotNumber);
+ await form.locator('input[type=date]').first().fill(new Date(Date.now()+86400000*180).toISOString().slice(0,10));
+ await form.locator('input[type=number]').first().fill(String(quantity));
+ const receiptResponse=page.waitForResponse(response=>response.url().endsWith('/api/inventory/receipts')&&response.request().method()==='POST');
+ await form.locator('button[type=submit]').click();
+ const response=await receiptResponse;
+ assert.equal(response.status(),201,await response.text());
+ const data=await response.json();
+ assert.equal(data.order.status,receiptStep===1?'PARTIALLY_RECEIVED':'FULFILLED');
+ if(receiptStep===2)await page.waitForFunction(number=>[...document.querySelectorAll('tr')].find(row=>row.textContent.includes(number))?.textContent.includes('Fulfilled'),payload.order.poNumber);
+ await page.goto('http://localhost:3002/inventory?view=low');
+}
+
+const stockPage=await context.newPage();await stockPage.goto('http://localhost:3002/inventory?view=catalog');
+async function waitForLiveStock(qty){
+ await stockPage.waitForFunction(({sku,qty})=>[...document.querySelectorAll('article')].some(card=>card.textContent.includes(sku)&&card.textContent.includes('BR-A')&&card.textContent.includes('Usable stock · '+qty+' BOX')),{sku,qty},{timeout:20000});
+}
+await waitForLiveStock(6);
+await receive(2,sku+'-PARTIAL');
+await waitForLiveStock(8);
+await page.reload();
+assert.equal((await valueFor('On order / awaiting delivery')).trim(),'3 BOX');
+assert.equal((await valueFor('Projected stock after delivery')).trim(),'11 BOX');
+assert.equal((await db.stockLot.aggregate({where:{materialId:material.id,branchId:branch.id},_sum:{quantityOnHand:true}}))._sum.quantityOnHand,8);
+await receive(3,sku+'-FINAL');await waitForLiveStock(11);console.log('PASS STOCK PAGE changed 6 -> 8 -> 11 live in a separate open tab, without reload.');
+await page.goto('http://localhost:3002/inventory?view=catalog');
+assert.equal((await valueFor('On order / awaiting delivery')).trim(),'0 BOX');
+assert.equal((await valueFor('Projected stock after delivery')).trim(),'11 BOX');
+assert.equal((await db.stockLot.aggregate({where:{materialId:material.id,branchId:branch.id},_sum:{quantityOnHand:true}}))._sum.quantityOnHand,11);
+console.log('PASS order appears on low stock page; 5 incoming then 3 after partial receipt; available stock changes 6 -> 8 -> 11 and incoming reaches 0.');
+
+console.log('PASS stock 6, reorder point 10, deficit 4; lead time 7 saved; reorder form preselects product, branch and 5-unit quantity.');}finally{if(browser)await browser.close();if(session)await db.session.delete({where:{id:session.id}});if(orderId)await db.purchaseOrder.delete({where:{id:orderId}});if(material)await db.material.delete({where:{id:material.id}});await db.$disconnect()}})().catch(e=>{console.error(e.message);process.exit(1)});

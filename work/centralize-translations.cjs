@@ -1,0 +1,9 @@
+const fs=require('fs'),ts=require('typescript'),crypto=require('crypto');const files=p=>fs.readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(p+'/'+e.name):[p+'/'+e.name]);const catalog={};let count=0,fileCount=0;
+for(const p of files('src').filter(p=>p.endsWith('.tsx'))){let s=fs.readFileSync(p,'utf8');const tree=ts.createSourceFile(p,s,ts.ScriptTarget.Latest,true,ts.ScriptKind.TSX),edits=[];
+function visit(n){if(ts.isConditionalExpression(n)&&ts.isStringLiteral(n.whenTrue)&&ts.isStringLiteral(n.whenFalse)){const condition=n.condition.getText(tree);if(/^(isAr|language\s*===\s*['"]ar['"]|locale\s*===\s*['"]ar['"])$/.test(condition)){const ar=n.whenTrue.text,en=n.whenFalse.text,id='text_'+crypto.createHash('sha256').update(en+'\0'+ar).digest('hex').slice(0,10);catalog[id]={en,ar};edits.push([n.getStart(tree),n.end,`localizedText(${condition} ? 'ar' : 'en', '${id}')`]);return;}}ts.forEachChild(n,visit)}visit(tree);if(!edits.length)continue;for(const [a,b,t] of edits.sort((a,b)=>b[0]-a[0]))s=s.slice(0,a)+t+s.slice(b);const imp="\nimport {localizedText} from '@/lib/interface-messages';\n";if(/^['"]use client['"];/.test(s))s=s.replace(/^(['"]use client['"];)/,'$1'+imp);else s=imp+s;fs.writeFileSync(p,s);count+=edits.length;fileCount++;}
+fs.writeFileSync('src/lib/interface-messages.ts',`/** Central catalog of existing bilingual interface copy. Original clinical content is never translated here. */
+export const interfaceMessages=${JSON.stringify(catalog,null,2)} as const;
+export type InterfaceMessageKey=keyof typeof interfaceMessages;
+export function localizedText(locale:'en'|'ar',key:InterfaceMessageKey):string{return interfaceMessages[key][locale];}
+`);
+let p='src/app/api/inventory/balances/route.ts',s=fs.readFileSync(p,'utf8').replace('getStockBalances(branchId)','getStockBalances(branchId!)');fs.writeFileSync(p,s);console.log({centralizedStrings:Object.keys(catalog).length,replacements:count,files:fileCount});

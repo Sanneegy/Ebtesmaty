@@ -1,0 +1,562 @@
+[
+  {
+    "url": "/inventory",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=catalog",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=catalog",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=low",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=low",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=expiry",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=expiry",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=movements",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=movements",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=replenishment",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/inventory?view=replenishment",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/purchasing",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/purchasing",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management?view=branches",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management?view=branches",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management?view=finance",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management?view=finance",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management?view=issues",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management?view=issues",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management?view=reports",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/management?view=reports",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/admin",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/admin",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/services",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/services",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/services/teeth-cleaning",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/services/teeth-cleaning",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/dentists",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/dentists",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/branches",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/branches",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/about",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/about",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/new-patients",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/new-patients",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/emergency",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/emergency",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/pricing",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/pricing",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/education",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/education",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/faqs",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/faqs",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/contact",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/contact",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/book",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/book",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/policies",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/policies",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/auth/login",
+    "mode": "desktop",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  },
+  {
+    "url": "/auth/login",
+    "mode": "mobile",
+    "status": 200,
+    "overflow": 0,
+    "font": "\"Josefin Sans\", \"IBM Plex Sans Arabic\", sans-serif",
+    "fonts": true,
+    "ribbons": 0,
+    "brokenImages": 0
+  }
+]

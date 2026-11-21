@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Existing application data (preserved)",
+    "checkedAt": "2026-11-02T12:17:18.554Z",
+    "totals": {
+      "paymentAttempts": 0,
+      "patients": 10,
+      "appointments": 11,
+      "completed": 5,
+      "invoicedPiasters": 1450000,
+      "collectionsPiasters": 980000,
+      "outstandingPiasters": 470000
+    },
+    "branchTotals": [
+      {
+        "code": "BR-A",
+        "invoicedPiasters": 500000,
+        "collectionsPiasters": 350000
+      },
+      {
+        "code": "BR-B",
+        "invoicedPiasters": 770000,
+        "collectionsPiasters": 450000
+      },
+      {
+        "code": "BR-C",
+        "invoicedPiasters": 180000,
+        "collectionsPiasters": 180000
+      }
+    ],
+    "issues": [
+      "Future birth date: EBT-PAT-2026-0010",
+      "Completed appointment without linked encounter: cmvtqfxwp006glhvk3jh1s943",
+      "Completed appointment without linked encounter: cmvtqfxwp006hlhvkz3bh5yrv",
+      "Completed appointment without linked encounter: cmvtqfxwp006ilhvkrh3ubz77",
+      "Completed appointment without linked encounter: cmvtqfxwp006jlhvk7596f7cj",
+      "Completed appointment without linked encounter: cmvtqfxwp006klhvkytrze10c",
+      "Encounter lacks linked appointment: cmvtqfxv50050lhvk1lj9czub",
+      "Stock ledger mismatch: cmvtqfxwa005xlhvkxz4e3l3p, on hand 24, movements 0",
+      "Stock ledger mismatch: cmvtqfxwa005ylhvkiq793o3z, on hand 18, movements 0",
+      "Stock ledger mismatch: cmvtqfxwa005zlhvk99mdvgp7, on hand 12, movements 0",
+      "Stock ledger mismatch: cmvtqfxwa0060lhvk7muymhpq, on hand 40, movements 0",
+      "Stock ledger mismatch: cmvtqfxwa0061lhvk8rk0697o, on hand 5, movements 0",
+      "Stock ledger mismatch: cmvtqfxwa0062lhvk5m76mxgv, on hand 16, movements 0",
+      "Stock ledger mismatch: cmvtqfxwa0063lhvkf5dxxz9t, on hand 12, movements 0",
+      "Stock ledger mismatch: cmvtqfxxk007jlhvkbj9ik01l, on hand 6, movements 0",
+      "Stock ledger mismatch: cmvtqfxxk007klhvk4n8ofyjg, on hand 9, movements 0",
+      "Stock ledger mismatch: cmvtqfxxk007llhvkwolo7w1k, on hand 28, movements 0",
+      "Stock ledger mismatch: cmvtqfxxk007mlhvkyrvaq8tu, on hand 14, movements 0",
+      "Stock ledger mismatch: cmvtqfxxk007nlhvksiwwbziy, on hand 8, movements 0"
+    ]
+  },
+  {
+    "name": "Isolated fictional presentation",
+    "checkedAt": "2026-11-02T12:17:18.865Z",
+    "totals": {
+      "paymentAttempts": 2,
+      "patients": 9,
+      "appointments": 11,
+      "completed": 6,
+      "invoicedPiasters": 720000,
+      "collectionsPiasters": 465000,
+      "outstandingPiasters": 255000
+    },
+    "branchTotals": [
+      {
+        "code": "BR-A",
+        "invoicedPiasters": 420000,
+        "collectionsPiasters": 270000
+      },
+      {
+        "code": "BR-B",
+        "invoicedPiasters": 180000,
+        "collectionsPiasters": 135000
+      },
+      {
+        "code": "BR-C",
+        "invoicedPiasters": 120000,
+        "collectionsPiasters": 60000
+      }
+    ],
+    "issues": []
+  }
+]

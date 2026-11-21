@@ -1,0 +1,1 @@
+require('dotenv').config(); const {PrismaClient}=require('@prisma/client'); const d=new PrismaClient(); d.user.findMany({select:{id:true,fullName:true,email:true,roleGrants:{select:{role:true}}}}).then(x=>console.log(JSON.stringify(x))).finally(()=>d.$disconnect());

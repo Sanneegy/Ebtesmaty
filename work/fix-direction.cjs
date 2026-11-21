@@ -1,0 +1,1 @@
+const fs=require('fs');const p='src/context/LanguageContext.tsx';let s=fs.readFileSync(p,'utf8').replace("import {localizedText} from '@/lib/interface-messages';",'').replace("localizedText(locale === 'ar' ? 'ar' : 'en', 'text_52b133b060')","locale === 'ar' ? 'rtl' : 'ltr'");fs.writeFileSync(p,s);

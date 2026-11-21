@@ -1,0 +1,1765 @@
+[
+  {
+    "text": "Ebtesamty Dental Team",
+    "files": [
+      "src/app/about/page.tsx"
+    ]
+  },
+  {
+    "text": "Search action, actor, entity...",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Filter audit actions",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Global",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Search user name, email, role...",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "ACTIVE",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "INACTIVE",
+    "files": [
+      "src/app/admin/AdminDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "System Administration & Audit Explorer | Ebtesamty Dental Clinics",
+    "files": [
+      "src/app/admin/page.tsx"
+    ]
+  },
+  {
+    "text": "Owner and clinic administration workspace with immutable audit trail inspection and RBAC user control.",
+    "files": [
+      "src/app/admin/page.tsx"
+    ]
+  },
+  {
+    "text": "name@example.com or +2010...",
+    "files": [
+      "src/app/auth/login/page.tsx"
+    ]
+  },
+  {
+    "text": "Ebtesamty Dental Clinics",
+    "files": [
+      "src/app/auth/register/page.tsx"
+    ]
+  },
+  {
+    "text": "patient@example.com",
+    "files": [
+      "src/app/auth/register/page.tsx",
+      "src/app/book/page.tsx"
+    ]
+  },
+  {
+    "text": "Cash (Physical)",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Credit / Debit Card",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "InstaPay (Instant)",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Fawry Network",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "RECEPTION CHECKOUT & CASHIER",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "FINANCIAL LEDGER & CASHFLOW",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Revenue Trend & Realized Collections",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Payment Channel Distribution",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Refresh Data",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Qty",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx",
+      "src/app/inventory/InventoryDeskClient.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Price (EGP)",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Approved discount note...",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Card or InstaPay reference...",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Counted cash in drawer",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Shortage or overage notes...",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Cairo Dental Supplies",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Receipt or bill reference number",
+    "files": [
+      "src/app/billing/BillingDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "name@example.com",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "text": "Website Portal & Form",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Phone Inquiries",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "WhatsApp Direct",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Front Desk Walk-In",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Other Direct Channels",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "1. Inbound Patient Requests",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "2. Triage Contacted & Verified",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "3. Operatory Appointments Booked",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "4. Attended & Completed Visits",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Conversion below 50% — review triage response.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Healthy booking conversion rate.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Excellent attendance rate — reminders working.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Show-up below 80% — consider reminders.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Large recall backlog — prioritize outreach.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Recall queue is manageable.",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Lead Conversion Funnel",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Acquisition by Channel",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Caller Full Name *",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Phone (+20 10...) *",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Inquiry Subject...",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Lead notes & follow-up...",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Conversion Funnel & Source Attribution",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Privacy-Safe Communication Templates",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Write response or follow-up outcome...",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Conversion Funnel",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Acquisition Channels",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "24-Hour Appointment Reminder (Privacy-Safe)",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "6-Month Preventive Scaling & Checkup Recall",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Post-Visit Thank You & Portal Feedback Invitation",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Incomplete Treatment Plan Follow-Up",
+    "files": [
+      "src/app/crm/CrmDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Dr. Tarek El-Gendy",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Consolidated executive KPIs (default scope: All Branches), branch comparison, revenue vs. collections, net margin, dentist utilization, and executive alerts.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Nadia Mansour",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Full Finance & Accounting workspace: invoices, multi-method EGP collections (Cash, Card, InstaPay, Fawry), receivables aging, cash reconciliation, and operating expenses.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Khaled Soliman",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Dental consumables catalog, branch stock vs. threshold charts, near-expiry lot monitoring, traceable inter-branch transfers, suppliers, and purchase orders (/purchasing).",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Heba Zaki",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Website/phone/WhatsApp inquiry pipeline, 4-stage conversion funnel analytics, source attribution, patient recall / follow-up list, and verified feedback moderation.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Eng. Karim Zaki",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Branch & operatory configuration, user roles & permissions, service catalog & EGP pricing, integration health, and immutable zero-PHI audit logs.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Mariam Hanna",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Front desk queue, online booking confirmation, walk-in registration, arrival check-in, portal link verification, and checkout.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Sandy Abd",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Front desk scheduling, daily chair agenda (/reception/agenda), arrival check-in, and patient coordination for New Cairo.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Salma El-Masry",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Front desk operations, patient check-in, and appointment coordination for Maadi.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Dr. Sandy Saad",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Prosthodontics & Cosmetic Dentistry. Assigned treating dentist for Hassan El-Sayed & Omar Farouk; full FDI odontogram and SOAP notes.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Dr. Feby Samer",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Endodontics & Microscopic Root Canal Therapy at Branch A (Heliopolis).",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Dr. Ahmed Hassan",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Oral & Maxillofacial Surgery & Implantology at Branch B (New Cairo). Demonstrates cross-branch RBAC isolation for unassigned charts.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Dr. Youssef El-Mansy",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Orthodontics & Clear Aligners specialist at Branch B (New Cairo).",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Dr. Nadia El-Hariry",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Pediatric & Family Restorative Dentistry lead at Branch C (Maadi).",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Hassan El-Sayed",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Verified portal patient (EBT-PAT-2026-0001) with active treatment plan, invoice balance, medical intake versions, and feedback.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Nour Mansour",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Self-registered portal patient with a PENDING link verification request awaiting reception approval.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Layla Mahmoud",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Verified portal patient at Maadi with an unsubmitted DRAFT medical intake ready for completion.",
+    "files": [
+      "src/app/demo/page.tsx"
+    ]
+  },
+  {
+    "text": "Return to Dentist Desk",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Finalized Diagnosis",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Provisional Diagnosis",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Cold sensitivity on molar",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Cavity on #36 occlusal",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Reversible pulpitis #36",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Procedures, anesthetics, materials placed...",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Chronic apical periodontitis #36",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Post-op progress check...",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Comprehensive Quadrant 3 Restoration",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Aesthetic restorative options...",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Procedure (e.g. Root Canal)",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Tooth #",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Cost (EGP)",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. panoramic_baseline_2026.png",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "Prior to endodontic therapy",
+    "files": [
+      "src/app/dentist/chart/[patientId]/DentistPatientChartClient.tsx"
+    ]
+  },
+  {
+    "text": "NO INTAKE",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Female",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Medical intake pending clinician review",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Review the latest submission before making clinical decisions.",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Review and confirm medical intake",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Document examination findings",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Update FDI tooth chart",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Review treatment plan",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Sign encounter note",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Reviewed",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Check chart",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Record allergy precautions...",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Saving...",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/portal/intake/page.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Save Clinical Review",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Describe observed symptom...",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Submitting...",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx",
+      "src/app/portal/intake/page.tsx",
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Submit Fault",
+    "files": [
+      "src/app/dentist/DentistDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "asc",
+    "files": [
+      "src/app/dentist/page.tsx",
+      "src/app/purchasing/page.tsx"
+    ]
+  },
+  {
+    "text": "Well-Stocked (Optimal)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Below Reorder Point",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Depleted (Out of Stock)",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Stock Health & Status",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Material Categories",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "To Deduct",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "To Add",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Adjustment reason...",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Requisition reason...",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Active lot number...",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Unit EGP",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Delivery instructions...",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Rejection reason...",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. MAT-BOND-02",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Scotchbond Universal Plus Adhesive",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Apex Dental Solutions Ltd.",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Tarek Gamal",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "orders@supplier.com",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Free Zone, Nasr City",
+    "files": [
+      "src/app/inventory/InventoryDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Warm, trustworthy, evidence-based dental care across three Cairo branches (Heliopolis, New Cairo, Maadi). Online appointment booking, patient portal, and integrated clinical care.",
+    "files": [
+      "src/app/layout.tsx"
+    ]
+  },
+  {
+    "text": "1. Registered Patients (EMPI)",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "2. Booked Appointments",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "3. Active Queues & Consultations",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Hide Details",
+    "files": [
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Details",
+    "files": [
+      "src/app/management/ManagementClient.tsx",
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "No open operational issues",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Cashflow Trend",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Branch Collections",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Devices Healthy",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Financial Comparison",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Revenue Share",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Patient Funnel",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Internal notes & directives...",
+    "files": [
+      "src/app/management/ManagementClient.tsx"
+    ]
+  },
+  {
+    "text": "Ebtesamty Clinical Team",
+    "files": [
+      "src/app/new-patients/page.tsx"
+    ]
+  },
+  {
+    "text": "Describe observed malfunction, error code, or pressure failure...",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Sameh El-Shennawy (Carestream Certified)",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Inspect air line pressure regulator",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Replaced worn valve seal, lubricated turbine bearings...",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Sirona Dentsply Orthophos S 3D",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Orthophos S",
+    "files": [
+      "src/app/operations/equipment/EquipmentDeskClient.tsx"
+    ]
+  },
+  {
+    "text": "Ebtesamty Dental Patient Treatment & Care",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Quick Section Navigation",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Healthy Smile",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Preferred Date",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Select Treatment Category",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Select Cairo Branch",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Doctor Consultation",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Patient 1",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Patient 2",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Patient 3",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Patient 4",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "View All Dental Disciplines",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Modern Ebtesamty Operatory in Heliopolis",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "Learn more about our clinic",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "text": "All charges fully settled",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "Payable at clinic desk or online sandbox",
+    "files": [
+      "src/app/portal/billing/page.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Follow-up consultation question or feedback regarding today's visit",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Please describe your experience or question in detail...",
+    "files": [
+      "src/app/portal/feedback/PortalFeedbackClient.tsx"
+    ]
+  },
+  {
+    "text": "Back to Reception Desk",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Back to Patient Portal",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Reception Assistance Mode: Information entered on patient’s behalf",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Versioned confidential patient medical intake",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Save Draft",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "High Blood Pressure (Hypertension)",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Diabetes (Type 1 or Type 2)",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Bleeding or Blood Clotting Disorders",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Heart Disease, Murmur, or Prior Cardiac Surgery",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Asthma or Chronic Respiratory Conditions",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Hepatitis, Jaundice, or Liver Disease",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Kidney Disease or Dialysis",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Details: medications, control level, diagnosing physician...",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Penicillin, Amoxicillin, or Other Antibiotics",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Latex Gloves or Rubber Products",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Dental Local Anesthesia (Novocaine, Lidocaine)",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Aspirin, Ibuprofen, or NSAIDs",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Describe reaction: rash, swelling, breathing difficulty, anaphylaxis...",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Blood Thinners / Anticoagulants (Aspirin, Warfarin, Plavix)",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Bisphosphonates or Bone Density Medications (Fosamax, Prolia)",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Cortisone, Steroids, or Immunosuppressive Drugs",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Are you currently pregnant or nursing? (Female patients)",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Concor 5mg once daily, Omega-3, Metformin 500mg...",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Describe your current issue: toothache, sensitivity, broken filling, routine cleaning...",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Fainting, prolonged bleeding after extraction, difficulty getting numb...",
+    "files": [
+      "src/app/portal/intake/page.tsx"
+    ]
+  },
+  {
+    "text": "Your upcoming visits",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "No confirmed upcoming visits.",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Manage appointments",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Your treatment plan",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "These are treatment estimates, separate from bills due. Ask your dentist about any unfamiliar term.",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "No shared treatment plan yet.",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "View my records",
+    "files": [
+      "src/app/portal/PatientDashboardClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Orders",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Pending Delivery",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Completed PO",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Rejected / Discrepancies",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Approved quote Q-2026-04",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Submit Purchase Order",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Verifying...",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx",
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Confirm Goods Receipt",
+    "files": [
+      "src/app/purchasing/PurchasingWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Return to Reception Desk",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Confirm Slot",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Offer Alternative",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Decline Request",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Internal notes or rationale for confirmation/decline...",
+    "files": [
+      "src/app/reception/agenda/page.tsx"
+    ]
+  },
+  {
+    "text": "Find a patient",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Search patient, phone, ID...",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "All",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Expected",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Waiting Lounge",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "In Chair",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Checkout",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Completed",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Refresh Live Board",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Verify Presence",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Hide Reconciliation Queue",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Open Identity & Duplicate Queue",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "e.g., Karim Mahmoud El-Shazly",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Optional",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Save & Continue to Check-In",
+    "files": [
+      "src/app/reception/ReceptionWorkspaceClient.tsx"
+    ]
+  },
+  {
+    "text": "Active Vendor Profile",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Search PO #, branch, material...",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Filter orders by status",
+    "files": [
+      "src/app/supplier/SupplierPortalClient.tsx"
+    ]
+  },
+  {
+    "text": "Book an appointment",
+    "files": [
+      "src/components/AppointmentRequestModal.tsx"
+    ]
+  },
+  {
+    "text": "Choose a branch, dentist and available time to send your request. Reception confirms your booking.",
+    "files": [
+      "src/components/AppointmentRequestModal.tsx"
+    ]
+  },
+  {
+    "text": "Choose a time",
+    "files": [
+      "src/components/AppointmentRequestModal.tsx"
+    ]
+  },
+  {
+    "text": "Close",
+    "files": [
+      "src/components/AppointmentRequestModal.tsx"
+    ]
+  },
+  {
+    "text": "Patient Portal Navigation",
+    "files": [
+      "src/components/AppShell.tsx"
+    ]
+  },
+  {
+    "text": "EN",
+    "files": [
+      "src/components/AppShell.tsx",
+      "src/components/AppShell.tsx",
+      "src/components/Navbar.tsx"
+    ]
+  },
+  {
+    "text": "Logout",
+    "files": [
+      "src/components/AppShell.tsx",
+      "src/components/AppShell.tsx",
+      "src/components/AppShell.tsx",
+      "src/components/Navbar.tsx"
+    ]
+  },
+  {
+    "text": "Toggle menu",
+    "files": [
+      "src/components/AppShell.tsx",
+      "src/components/AppShell.tsx"
+    ]
+  },
+  {
+    "text": "Workspace Navigation",
+    "files": [
+      "src/components/AppShell.tsx"
+    ]
+  },
+  {
+    "text": "Primary Role Navigation",
+    "files": [
+      "src/components/AppShell.tsx"
+    ]
+  },
+  {
+    "text": "invoice",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "invoices",
+    "files": [
+      "src/components/charts/InteractiveCharts.tsx"
+    ]
+  },
+  {
+    "text": "RCT",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "e.g. MOD, O, D",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "e.g. Recurrent decay under distal amalgam margin",
+    "files": [
+      "src/components/clinical/ToothChart.tsx"
+    ]
+  },
+  {
+    "text": "English (LTR)",
+    "files": [
+      "src/components/Footer.tsx"
+    ]
+  },
+  {
+    "text": "Demo environment • EGP • Cairo time",
+    "files": [
+      "src/components/Footer.tsx"
+    ]
+  },
+  {
+    "text": "Global Public Navigation",
+    "files": [
+      "src/components/Navbar.tsx"
+    ]
+  },
+  {
+    "text": "English",
+    "files": [
+      "src/components/Navbar.tsx"
+    ]
+  },
+  {
+    "text": "EBTESAMTY • CARE WITH CONFIDENCE",
+    "files": [
+      "src/components/PageExperience.tsx"
+    ]
+  },
+  {
+    "text": "Overview",
+    "files": [
+      "src/components/PageExperience.tsx"
+    ]
+  },
+  {
+    "text": "Your next step to a healthy smile",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Choose an available time. Reception will confirm your request.",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Branch",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Visit type",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Consultation — I am not sure",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Dentist",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Any available dentist",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Visit date",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Available times · Cairo time",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Checking availability…",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "No times are available for this selection. Try another date, dentist or branch.",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Optional notes",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Cancel",
+    "files": [
+      "src/components/PatientBooking.tsx"
+    ]
+  },
+  {
+    "text": "Presentation access",
+    "files": [
+      "src/components/PresentationAccess.tsx"
+    ]
+  },
+  {
+    "text": "Choose your workspace",
+    "files": [
+      "src/components/PresentationAccess.tsx"
+    ]
+  },
+  {
+    "text": "One click opens your saved presentation account.",
+    "files": [
+      "src/components/PresentationAccess.tsx"
+    ]
+  },
+  {
+    "text": "Register a new patient",
+    "files": [
+      "src/components/ReceptionBooking.tsx"
+    ]
+  },
+  {
+    "text": "Full name",
+    "files": [
+      "src/components/ReceptionBooking.tsx"
+    ]
+  },
+  {
+    "text": "Phone number",
+    "files": [
+      "src/components/ReceptionBooking.tsx"
+    ]
+  },
+  {
+    "text": "Date of birth",
+    "files": [
+      "src/components/ReceptionBooking.tsx"
+    ]
+  },
+  {
+    "text": "Ebtesamty Dental Logo Mark",
+    "files": [
+      "src/components/ui/BrandLogo.tsx"
+    ]
+  },
+  {
+    "text": "Ebtesamty",
+    "files": [
+      "src/components/ui/BrandLogo.tsx"
+    ]
+  },
+  {
+    "text": "Dental Clinics • Egypt",
+    "files": [
+      "src/components/ui/BrandLogo.tsx"
+    ]
+  }
+]

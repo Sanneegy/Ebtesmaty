@@ -1,0 +1,5 @@
+const fs=require('fs');const p='src/app/portal/appointments/page.tsx';let s=fs.readFileSync(p,'utf8');s=s.replace("import {localizedText}","import {PatientBooking} from '@/components/PatientBooking';\nimport {StatusBadge} from '@/components/ui/StatusBadge';\nimport {localizedText}");let a=s.indexOf('  const handleCreateRequest'),b=s.indexOf('  const handleRespondOffer',a);s=s.slice(0,a)+s.slice(b);a=s.indexOf('      {/* Appointment Request Modal */}');s=s.slice(0,a)+`      {isModalOpen && patientRecord && <PatientBooking patientId={patientRecord.id} onClose={()=>setIsModalOpen(false)} onSaved={()=>{setIsModalOpen(false);fetchData();}} />}
+    </div>
+  );
+}
+`;a=s.indexOf('                      <span\r\n                        className={`text-xs font-bold px-2.5');if(a<0)a=s.indexOf('                      <span\n                        className={`text-xs font-bold px-2.5');b=s.indexOf('</span>',a);if(a>=0)s=s.slice(0,a)+'                      <StatusBadge status={req.status} />'+s.slice(b+7);s=s.replace('onClick={() => setIsModalOpen(true)}','disabled={!patientRecord} onClick={() => setIsModalOpen(true)}');fs.writeFileSync(p,s);

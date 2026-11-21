@@ -1,0 +1,30 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: ebtesamty-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ebtesamty
+      POSTGRES_PASSWORD: ebtesamty_dev_secret
+      POSTGRES_DB: ebtesamty
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ebtesamty -d ebtesamty"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: ebtesamty-mailpit
+    restart: unless-stopped
+    ports:
+      - "1025:1025" # SMTP port
+      - "8025:8025" # Web UI port
+
+volumes:
+  postgres_data:
+    driver: local

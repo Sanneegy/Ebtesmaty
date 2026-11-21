@@ -1,0 +1,394 @@
+[
+  {
+    "email": "hassan.patient",
+    "url": "/portal",
+    "label": "desktop",
+    "title": "Welcome back, Passant!",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal",
+    "label": "mobile",
+    "title": "Welcome back, Passant!",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/appointments",
+    "label": "desktop",
+    "title": "Your Clinical Appointments",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/appointments",
+    "label": "mobile",
+    "title": "Your Clinical Appointments",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/intake",
+    "label": "desktop",
+    "title": "Pre-Visit Medical & Dental History",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/intake",
+    "label": "mobile",
+    "title": "Pre-Visit Medical & Dental History",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/billing",
+    "label": "desktop",
+    "title": "Patient Billing & Receipts",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/billing",
+    "label": "mobile",
+    "title": "Patient Billing & Receipts",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/records",
+    "label": "desktop",
+    "title": "My records",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/records",
+    "label": "mobile",
+    "title": "My records",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/feedback",
+    "label": "desktop",
+    "title": "Patient Feedback & Support",
+    "overflow": 0
+  },
+  {
+    "email": "hassan.patient",
+    "url": "/portal/feedback",
+    "label": "mobile",
+    "title": "Patient Feedback & Support",
+    "overflow": 0
+  },
+  {
+    "email": "mariam.reception",
+    "url": "/reception",
+    "label": "desktop",
+    "title": "Today",
+    "overflow": 0
+  },
+  {
+    "email": "mariam.reception",
+    "url": "/reception",
+    "label": "mobile",
+    "title": "Today",
+    "overflow": 0
+  },
+  {
+    "email": "mariam.reception",
+    "url": "/reception/agenda",
+    "label": "desktop",
+    "title": "Appointments & Calendar",
+    "overflow": 0
+  },
+  {
+    "email": "mariam.reception",
+    "url": "/reception/agenda",
+    "label": "mobile",
+    "title": "Appointments & Calendar",
+    "overflow": 0
+  },
+  {
+    "email": "mariam.reception",
+    "url": "/reception/patients",
+    "label": "desktop",
+    "title": "Patients & Registration",
+    "overflow": 0
+  },
+  {
+    "email": "mariam.reception",
+    "url": "/reception/patients",
+    "label": "mobile",
+    "title": "Patients & Registration",
+    "overflow": 0
+  },
+  {
+    "email": "mariam.reception",
+    "url": "/billing?mode=checkout",
+    "label": "desktop",
+    "title": "Checkout & Receipts",
+    "overflow": 0
+  },
+  {
+    "email": "mariam.reception",
+    "url": "/billing?mode=checkout",
+    "label": "mobile",
+    "title": "Checkout & Receipts",
+    "overflow": 0
+  },
+  {
+    "email": "dr.sandy",
+    "url": "/dentist",
+    "label": "desktop",
+    "title": "Dr. Sandy Saad",
+    "overflow": 0
+  },
+  {
+    "email": "dr.sandy",
+    "url": "/dentist",
+    "label": "mobile",
+    "title": "Dr. Sandy Saad",
+    "overflow": 0
+  },
+  {
+    "email": "dr.sandy",
+    "url": "/dentist/schedule",
+    "label": "desktop",
+    "title": "My Schedule",
+    "overflow": 0
+  },
+  {
+    "email": "dr.sandy",
+    "url": "/dentist/schedule",
+    "label": "mobile",
+    "title": "My Schedule",
+    "overflow": 0
+  },
+  {
+    "email": "dr.sandy",
+    "url": "/dentist/records",
+    "label": "desktop",
+    "title": "Patient Records",
+    "overflow": 0
+  },
+  {
+    "email": "dr.sandy",
+    "url": "/dentist/records",
+    "label": "mobile",
+    "title": "Patient Records",
+    "overflow": 0
+  },
+  {
+    "email": "dr.sandy",
+    "url": "/dentist/tasks",
+    "label": "desktop",
+    "title": "Follow-ups & Tasks",
+    "overflow": 0
+  },
+  {
+    "email": "dr.sandy",
+    "url": "/dentist/tasks",
+    "label": "mobile",
+    "title": "Follow-ups & Tasks",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management",
+    "label": "desktop",
+    "title": "Executive overview",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management",
+    "label": "mobile",
+    "title": "Executive overview",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management?view=branches",
+    "label": "desktop",
+    "title": "Branch comparison",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management?view=branches",
+    "label": "mobile",
+    "title": "Branch comparison",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management?view=finance",
+    "label": "desktop",
+    "title": "Executive finance overview",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management?view=finance",
+    "label": "mobile",
+    "title": "Executive finance overview",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management?view=issues",
+    "label": "desktop",
+    "title": "Operations & Alerts",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management?view=issues",
+    "label": "mobile",
+    "title": "Operations & Alerts",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management?view=reports",
+    "label": "desktop",
+    "title": "Performance reports",
+    "overflow": 0
+  },
+  {
+    "email": "admin",
+    "url": "/management?view=reports",
+    "label": "mobile",
+    "title": "Performance reports",
+    "overflow": 205
+  },
+  {
+    "email": "finance",
+    "url": "/billing",
+    "label": "desktop",
+    "title": "Invoices",
+    "overflow": 0
+  },
+  {
+    "email": "finance",
+    "url": "/billing",
+    "label": "mobile",
+    "title": "Invoices",
+    "overflow": 0
+  },
+  {
+    "email": "finance",
+    "url": "/billing?view=payments",
+    "label": "desktop",
+    "title": "Payment Recording",
+    "overflow": 0
+  },
+  {
+    "email": "finance",
+    "url": "/billing?view=payments",
+    "label": "mobile",
+    "title": "Payment Recording",
+    "overflow": 0
+  },
+  {
+    "email": "finance",
+    "url": "/billing?view=balances",
+    "label": "desktop",
+    "title": "Balances & Installments",
+    "overflow": 0
+  },
+  {
+    "email": "finance",
+    "url": "/billing?view=balances",
+    "label": "mobile",
+    "title": "Balances & Installments",
+    "overflow": 0
+  },
+  {
+    "email": "finance",
+    "url": "/billing?view=reconciliation",
+    "label": "desktop",
+    "title": "Cash Reconciliation",
+    "overflow": 0
+  },
+  {
+    "email": "finance",
+    "url": "/billing?view=reconciliation",
+    "label": "mobile",
+    "title": "Cash Reconciliation",
+    "overflow": 0
+  },
+  {
+    "email": "finance",
+    "url": "/billing?view=expenses",
+    "label": "desktop",
+    "title": "Expenses & Finance Reports",
+    "overflow": 0
+  },
+  {
+    "email": "finance",
+    "url": "/billing?view=expenses",
+    "label": "mobile",
+    "title": "Expenses & Finance Reports",
+    "overflow": 0
+  },
+  {
+    "email": "crm",
+    "url": "/crm",
+    "label": "desktop",
+    "title": "Inquiries & Leads",
+    "overflow": 0
+  },
+  {
+    "email": "crm",
+    "url": "/crm",
+    "label": "mobile",
+    "title": "Inquiries & Leads",
+    "overflow": 0
+  },
+  {
+    "email": "crm",
+    "url": "/crm?view=retention",
+    "label": "desktop",
+    "title": "Recall & Follow-up",
+    "overflow": 0
+  },
+  {
+    "email": "crm",
+    "url": "/crm?view=retention",
+    "label": "mobile",
+    "title": "Recall & Follow-up",
+    "overflow": 0
+  },
+  {
+    "email": "crm",
+    "url": "/crm?view=analytics",
+    "label": "desktop",
+    "title": "Conversion & Attribution",
+    "overflow": 0
+  },
+  {
+    "email": "crm",
+    "url": "/crm?view=analytics",
+    "label": "mobile",
+    "title": "Conversion & Attribution",
+    "overflow": 0
+  },
+  {
+    "email": "crm",
+    "url": "/crm?view=feedback",
+    "label": "desktop",
+    "title": "Patient Feedback",
+    "overflow": 0
+  },
+  {
+    "email": "crm",
+    "url": "/crm?view=feedback",
+    "label": "mobile",
+    "title": "Patient Feedback",
+    "overflow": 0
+  }
+]

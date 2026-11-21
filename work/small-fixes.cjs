@@ -1,0 +1,3 @@
+const fs=require('fs');let p='src/app/portal/intake/page.tsx',s=fs.readFileSync(p,'utf8');s=s.replace('value=<TranslatedText text={formData.dental.dentalAnxiety}/>','value={formData.dental.dentalAnxiety}').replace("</span> {formData.dental.dentalAnxiety}",'</span> <TranslatedText text={formData.dental.dentalAnxiety}/>');fs.writeFileSync(p,s);
+p='src/components/AppShell.tsx';s=fs.readFileSync(p,'utf8').replaceAll("font-['Plus_Jakarta_Sans',sans-serif]",'font-sans');fs.writeFileSync(p,s);
+p='src/app/portal/PatientDashboardClient.tsx';s=fs.readFileSync(p,'utf8').replaceAll('href="/book"','href="/portal/appointments"');fs.writeFileSync(p,s);
