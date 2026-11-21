@@ -23,8 +23,9 @@ export async function POST(request:Request) {
       return NextResponse.json({ error: 'Choose a presentation account' }, { status: 400 });
     }
 
-    // Try finding user in PostgreSQL
+    // Try finding user in PostgreSQL, fallback to stateless cookie token if DB is unreachable (e.g. Vercel serverless without DB)
     let destination: string = account.path;
+    let sessionCreated = false;
     try {
       const user = await db.user.findUnique({
         where: { email: account.email },
@@ -36,6 +37,7 @@ export async function POST(request:Request) {
         if (computedDest) destination = computedDest;
         const { token, expiresAt } = await createSession(user.id);
         await setSessionCookie(token, expiresAt);
+        sessionCreated = true;
         await logAuditEvent({
           actorUserId: user.id,
           actorRole: user.roleGrants[0]?.role,
@@ -46,7 +48,12 @@ export async function POST(request:Request) {
         });
       }
     } catch (dbErr) {
-      console.warn('Database session creation skipped or failed:', dbErr);
+      console.warn('Database session creation skipped or failed, using stateless demo token:', dbErr);
+    }
+
+    if (!sessionCreated) {
+      const expiresAt = new Date(Date.now() + 1000 * 60 * 60 * 24 * 7);
+      await setSessionCookie(`demo:${account.email}`, expiresAt);
     }
 
     // Determine redirect base URL safely supporting Vercel and reverse proxies

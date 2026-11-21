@@ -36,10 +36,12 @@ export default async function RootLayout({
 
   const demo = process.env.DATA_MODE === 'fictional-demo';
   const dataset = demo
-    ? await db.auditEvent.findFirst({
-        where: { action: 'FICTIONAL_DEMO_INITIALIZED' },
-        orderBy: { createdAt: 'asc' },
-      })
+    ? await db.auditEvent
+        .findFirst({
+          where: { action: 'FICTIONAL_DEMO_INITIALIZED' },
+          orderBy: { createdAt: 'asc' },
+        })
+        .catch(() => null)
     : null;
   const period = dataset?.metadataJson as { reportingStart?: string; reportingEnd?: string } | null;
 

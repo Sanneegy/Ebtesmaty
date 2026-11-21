@@ -41,7 +41,7 @@ export default function LoginForm({demoEnabled}:{demoEnabled:boolean}) {
       if (data.redirectUrl) {
         window.location.href = data.redirectUrl;
       } else {
-        router.push('/portal');
+        router.push('/patient/dashboard');
       }
     } catch (err: any) {
       setError(copy.error);

@@ -41,36 +41,41 @@ export default async function DentistPage({searchParams}:{searchParams:{view?:st
   const todayEnd=new Date(+todayStart+86400000);
 
   // 1. Fetch care assignments for this dentist (including tooth findings & treatment plans)
-  const careAssignments = await db.patientCareAssignment.findMany({
-    where: {
-      dentistUserId: user.id,
-      active: true,
-    },
-    include: {
-      patient: {
-        include: {
-          primaryBranch: true,
-          toothFindings: {
-            orderBy: { recordedAt: 'desc' },
-          },
-          treatmentPlans: {
-            include: { items: true },
-            orderBy: { createdAt: 'desc' },
-          },
-          medicalSubmissions: {
-            include: {
-              reviews: {
-                include: { dentistUser: {select:{id:true,fullName:true,email:true}} },
-                orderBy: { reviewedAt: 'desc' },
-              },
+  let careAssignments: any[] = [];
+  try {
+    careAssignments = await db.patientCareAssignment.findMany({
+      where: {
+        dentistUserId: user.id,
+        active: true,
+      },
+      include: {
+        patient: {
+          include: {
+            primaryBranch: true,
+            toothFindings: {
+              orderBy: { recordedAt: 'desc' },
             },
-            orderBy: { versionNumber: 'desc' },
+            treatmentPlans: {
+              include: { items: true },
+              orderBy: { createdAt: 'desc' },
+            },
+            medicalSubmissions: {
+              include: {
+                reviews: {
+                  include: { dentistUser: {select:{id:true,fullName:true,email:true}} },
+                  orderBy: { reviewedAt: 'desc' },
+                },
+              },
+              orderBy: { versionNumber: 'desc' },
+            },
           },
         },
+        branch: true,
       },
-      branch: true,
-    },
-  });
+    });
+  } catch (dbErr) {
+    redirect('/doctor/dashboard');
+  }
 
   // 2. Fetch live waiting queue for this dentist (patients who have verified physical arrival)
   const waitingQueue = await db.queueEntry.findMany({

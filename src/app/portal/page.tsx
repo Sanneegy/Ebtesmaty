@@ -13,21 +13,27 @@ export default async function PatientPortalPage() {
     redirect('/auth/login');
   }
 
-  // Get active approved portal link
-  const approvedLink = await db.portalPatientLink.findFirst({
-    where: { userId: user.id, status: 'APPROVED' },
-    include: {
-      patient: {
-        include: {
-          primaryBranch: true,
-          careAssignments: {
-            where: { active: true },
-            include: { dentistUser: {select:{id:true,fullName:true,email:true}}, branch: true },
+  let approvedLink: any = null;
+  try {
+    // Get active approved portal link
+    approvedLink = await db.portalPatientLink.findFirst({
+      where: { userId: user.id, status: 'APPROVED' },
+      include: {
+        patient: {
+          include: {
+            primaryBranch: true,
+            careAssignments: {
+              where: { active: true },
+              include: { dentistUser: {select:{id:true,fullName:true,email:true}}, branch: true },
+            },
           },
         },
       },
-    },
-  });
+    });
+  } catch (dbErr) {
+    // When running serverless without DB connection, redirect straight to the full Minya Patient Dashboard
+    redirect('/patient/dashboard');
+  }
 
   const patient = approvedLink?.patient;
 

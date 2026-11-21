@@ -46,17 +46,22 @@ export default async function ManagementPage({ searchParams }: Props) {
   // Server-side enforcement: If user is BRANCH_MANAGER without OWNER_ADMIN, force their assigned branchId
   const effectiveBranchId = !isOwnerAdmin && userBranchId ? userBranchId : (branchId || null);
 
-  const query=await searchParams;if(!['issues','operations','alerts','feedback','duplicates','links'].includes(query.view||''))return <ExecutiveReport query={{...query,branchId:effectiveBranchId||undefined}}/>;
-  // Fetch operational metrics (STRICT GUARANTEE: Zero clinical PHI returned)
-  const [metrics, duplicates, pendingLinks, branches, kpis, alerts, feedbackCases] = await Promise.all([
-    getOperationalMetrics(effectiveBranchId, user),
-    getUnresolvedDuplicates(effectiveBranchId, user),
-    getPendingPortalLinks(effectiveBranchId, user),
-    db.branch.findMany({ where: { isActive: true }, orderBy: { code: 'asc' } }),
-    getManagementActionCenterKPIs(effectiveBranchId||undefined),
-    getOperationalAlerts(effectiveBranchId || undefined),
-    getFeedbackCases(effectiveBranchId || undefined),
-  ]);
+  let metrics: any, duplicates: any, pendingLinks: any, branches: any, kpis: any, alerts: any, feedbackCases: any;
+  try {
+    const query=await searchParams;if(!['issues','operations','alerts','feedback','duplicates','links'].includes(query.view||''))return <ExecutiveReport query={{...query,branchId:effectiveBranchId||undefined}}/>;
+    // Fetch operational metrics (STRICT GUARANTEE: Zero clinical PHI returned)
+    [metrics, duplicates, pendingLinks, branches, kpis, alerts, feedbackCases] = await Promise.all([
+      getOperationalMetrics(effectiveBranchId, user),
+      getUnresolvedDuplicates(effectiveBranchId, user),
+      getPendingPortalLinks(effectiveBranchId, user),
+      db.branch.findMany({ where: { isActive: true }, orderBy: { code: 'asc' } }),
+      getManagementActionCenterKPIs(effectiveBranchId||undefined),
+      getOperationalAlerts(effectiveBranchId || undefined),
+      getFeedbackCases(effectiveBranchId || undefined),
+    ]);
+  } catch (dbErr) {
+    redirect('/owner/dashboard');
+  }
 
   return (
     <ManagementClient

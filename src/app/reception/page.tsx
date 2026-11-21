@@ -43,16 +43,21 @@ export default async function ReceptionPage({searchParams}:{searchParams:{view?:
   const { start: todayStart, end: tomorrowStart } = getCairoDayBounds();
 
   // Fetch pending portal link requests
-  const pendingLinks = await db.portalPatientLink.findMany({
-    where: { status: 'PENDING', ...(assignedBranchId?{patient:{primaryBranchId:assignedBranchId}}:{}) },
-    include: {
-      user: {select:{id:true,fullName:true,email:true,phone:true}},
-      patient: {
-        include: { primaryBranch: true },
+  let pendingLinks: any[] = [];
+  try {
+    pendingLinks = await db.portalPatientLink.findMany({
+      where: { status: 'PENDING', ...(assignedBranchId?{patient:{primaryBranchId:assignedBranchId}}:{}) },
+      include: {
+        user: {select:{id:true,fullName:true,email:true,phone:true}},
+        patient: {
+          include: { primaryBranch: true },
+        },
       },
-    },
-    orderBy: { requestedAt: 'asc' },
-  });
+      orderBy: { requestedAt: 'asc' },
+    });
+  } catch (dbErr) {
+    redirect('/reception/dashboard');
+  }
 
   // Fetch unresolved duplicate review hints and group by canonical patient pair + match reason
   const rawDuplicateReviews = await db.potentialDuplicateReview.findMany({
