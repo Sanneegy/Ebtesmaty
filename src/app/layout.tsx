@@ -32,7 +32,8 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const currentUser = await getCurrentUser();
-  const locale = cookies().get('ebtesamty_locale')?.value === 'ar' ? 'ar' : 'en';
+  const cookieStore = await Promise.resolve(cookies());
+  const locale = cookieStore.get('ebtesamty_locale')?.value === 'ar' ? 'ar' : 'en';
 
   const demo = process.env.DATA_MODE === 'fictional-demo';
   const dataset = demo

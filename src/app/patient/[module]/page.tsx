@@ -7,14 +7,15 @@ export const dynamic = "force-dynamic";
 export default async function PatientModulePage({
   params,
 }: {
-  params: { module: string };
+  params: Promise<{ module: string }> | { module: string };
 }) {
+  const resolvedParams = await Promise.resolve(params);
   const user = await getCurrentUser();
 
   return (
     <MinyaRoleModulePage
       role="patient"
-      moduleSlug={params.module}
+      moduleSlug={resolvedParams.module}
       currentUser={user}
     />
   );

@@ -8,8 +8,9 @@ export const dynamic = "force-dynamic";
 export default async function DoctorModulePage({
   params,
 }: {
-  params: { module: string };
+  params: Promise<{ module: string }> | { module: string };
 }) {
+  const resolvedParams = await Promise.resolve(params);
   const user = await getCurrentUser();
   if (user && Array.isArray(user.roleGrants) && user.roleGrants.length > 0) {
     const roles = user.roleGrants.map((g: any) => String(g.role).toUpperCase());
@@ -22,7 +23,7 @@ export default async function DoctorModulePage({
   return (
     <MinyaRoleModulePage
       role="doctor"
-      moduleSlug={params.module}
+      moduleSlug={resolvedParams.module}
       currentUser={user}
     />
   );

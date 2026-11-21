@@ -263,7 +263,7 @@ export async function getSessionUser(token: string) {
 
 export async function getCurrentUser() {
   try {
-    const cookieStore = cookies();
+    const cookieStore = await Promise.resolve(cookies());
     const token = cookieStore.get(SESSION_COOKIE_NAME)?.value;
     if (!token) return null;
     return getSessionUser(token);
@@ -273,7 +273,7 @@ export async function getCurrentUser() {
 }
 
 export async function setSessionCookie(token: string, expiresAt: Date) {
-  const cookieStore = cookies();
+  const cookieStore = await Promise.resolve(cookies());
   cookieStore.set(SESSION_COOKIE_NAME, token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
@@ -284,7 +284,7 @@ export async function setSessionCookie(token: string, expiresAt: Date) {
 }
 
 export async function clearSessionCookie() {
-  const cookieStore = cookies();
+  const cookieStore = await Promise.resolve(cookies());
   const token = cookieStore.get(SESSION_COOKIE_NAME)?.value;
   if (token) {
     await db.session.delete({ where: { token } }).catch(() => {});
