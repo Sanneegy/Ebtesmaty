@@ -33,28 +33,33 @@
     "bcryptjs": "^3.0.2",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",
-    "next": "^15.5.16",
+    "next": "^15.5.29",
     "pg": "^8.13.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^3.0.2",
-    "zod": "^3.24.2"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@playwright/test": "^1.50.1",
-    "@types/bcryptjs": "^3.0.2",
     "@types/node": "^22.13.4",
     "@types/pg": "^8.11.11",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^15.5.16",
-    "postcss": "^8.5.3",
+    "eslint-config-next": "^15.5.29",
+    "postcss": "^8.5.23",
     "prisma": "^6.4.1",
     "tailwindcss": "^3.4.17",
     "tsx": "^4.19.3",
     "typescript": "^5.7.3",
-    "vitest": "^3.0.5"
+    "vitest": "^5.1.1"
+  },
+  "overrides": {
+    "tinypool": ">=2.1.2",
+    "deepmerge-ts": ">=8.0.0",
+    "effect": ">=3.22.1",
+    "postcss": "$postcss"
   }
 }
