@@ -23,7 +23,8 @@
     "demo:prepare": "node scripts/presentation.cjs prepare",
     "demo:start": "node scripts/presentation.cjs start",
     "actual:start": "node scripts/presentation.cjs actual",
-    "data:audit": "node scripts/audit-data.cjs"
+    "data:audit": "node scripts/audit-data.cjs",
+    "postinstall": "prisma generate"
   },
   "prisma": {
     "seed": "node scripts/seed-runner.js"
