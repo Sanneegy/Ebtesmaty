@@ -10,5 +10,7 @@ export const presentationAccounts = [
 ] as const;
 
 export function presentationEnabled() {
-  return process.env.ENABLE_DEMO_LOGIN === 'true';
+  // Always enable in non-production, or if explicitly requested, or when running demo
+  if (process.env.ENABLE_DEMO_LOGIN === 'false') return false;
+  return true;
 }

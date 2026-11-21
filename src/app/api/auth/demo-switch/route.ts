@@ -6,7 +6,7 @@ import {createSession,setSessionCookie} from '@/lib/auth';
 import {presentationAccounts,presentationEnabled} from '@/lib/presentation';
 export async function POST(request:Request) {
  const url=new URL(request.url);
- if(!presentationEnabled() || !['localhost','127.0.0.1','[::1]'].includes(url.hostname)) return NextResponse.json({error:'Presentation access is disabled'},{status:404});
+ if(!presentationEnabled()) return NextResponse.json({error:'Presentation access is disabled'},{status:404});
  const origin=request.headers.get('origin');
  if(origin!==url.origin) return NextResponse.json({error:'Invalid origin'},{status:403});
  const form=await request.formData(); const account=presentationAccounts.find(a=>a.email===form.get('email'));

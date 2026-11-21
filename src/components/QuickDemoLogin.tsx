@@ -14,6 +14,7 @@ export function QuickDemoLogin() {
   const { locale } = useLanguage();
   const ar = locale === 'ar';
   const [busy, setBusy] = useState('');
+  const [showCredentials, setShowCredentials] = useState(false);
 
   return (
     <section aria-label={ar ? 'الدخول التجريبي السريع (٤ لوحات فقط)' : 'Four Role Dashboards Quick Login'} className="mt-7">
@@ -35,6 +36,34 @@ export function QuickDemoLogin() {
             </button>
           </form>
         ))}
+      </div>
+
+      {/* Manual Login Credentials Display */}
+      <div className="mt-4 pt-3 border-t border-slate-100 text-center">
+        <button
+          type="button"
+          onClick={() => setShowCredentials(!showCredentials)}
+          className="text-[11px] font-semibold text-slate-500 hover:text-slate-800 underline transition"
+        >
+          {showCredentials 
+            ? (ar ? 'إخفاء بيانات الدخول اليدوي' : 'Hide manual credentials') 
+            : (ar ? 'عرض بيانات الدخول لجميع الأدوار (البريد وكلمة المرور)' : 'View all role login credentials (Email & Password)')}
+        </button>
+
+        {showCredentials && (
+          <div className="mt-3 p-3 bg-slate-50 rounded-xl text-left border border-slate-200 text-xs text-slate-700 space-y-2">
+            <div className="font-bold text-slate-900 border-b border-slate-200 pb-1 flex justify-between items-center">
+              <span>{ar ? 'كلمة المرور المشتركة لجميع الحسابات:' : 'Shared Password for all roles:'}</span>
+              <code className="bg-amber-100 text-amber-900 px-2 py-0.5 rounded font-mono font-bold">Password123!</code>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 pt-1 text-[11px]">
+              <div><strong className="text-violet-800">1. Owner / Admin:</strong><br/><code className="text-slate-600">admin@ebtesamty.dev</code></div>
+              <div><strong className="text-blue-800">2. Receptionist:</strong><br/><code className="text-slate-600">mariam.reception@ebtesamty.dev</code></div>
+              <div><strong className="text-teal-800">3. Dentist:</strong><br/><code className="text-slate-600">dr.sandy@ebtesamty.dev</code></div>
+              <div><strong className="text-emerald-800">4. Patient:</strong><br/><code className="text-slate-600">hassan.patient@ebtesamty.dev</code></div>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
