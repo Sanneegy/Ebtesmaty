@@ -7,7 +7,7 @@ import {
   FaultSeverity,
   WorkOrderStatus,
   ExpenseCategory,
-} from '@prisma/client';
+} from '@/lib/prisma-shim';
 
 export interface CreateAssetInput {
   branchId: string;

@@ -3,7 +3,7 @@ import db from '@/lib/db';
 import { availability } from '@/services/booking.service';
 import { CLINIC_SERVICES } from '@/config/clinic-catalog';
 import { dateOnly } from '@/lib/scheduling-rules';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 
 export async function GET(req: Request) {
   try {

@@ -4,7 +4,7 @@ import {requireClinicalAccess} from '@/lib/rbac';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { requireRole } from '@/lib/rbac';
-import { Role, TreatmentPlanStatus } from '@prisma/client';
+import { Role, TreatmentPlanStatus } from '@/lib/prisma-shim';
 import { updateTreatmentPlanStatus, markTreatmentItemPerformed } from '@/services/clinical.service';
 
 export async function PATCH(

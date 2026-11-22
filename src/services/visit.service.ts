@@ -1,5 +1,5 @@
 import db from '@/lib/db';
-import { Role, Prisma } from '@prisma/client';
+import { Role, Prisma } from '@/lib/prisma-shim';
 import { requireRole, AuthorizationError } from '@/lib/rbac';
 import { Actor } from './booking.service';
 import { cairoDate, cairoInstant, orderVisits } from '@/lib/scheduling-rules';

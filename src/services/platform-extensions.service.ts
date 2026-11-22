@@ -1,7 +1,7 @@
 import db from '../lib/db';
 import { logAuditEvent } from '../lib/audit';
 import { AuthorizationError, requireRole } from '../lib/rbac';
-import { Role, StockMovementType, TreatmentPlanStatus } from '@prisma/client';
+import { Role, StockMovementType, TreatmentPlanStatus } from '@/lib/prisma-shim';
 
 let seededFlag = false;
 

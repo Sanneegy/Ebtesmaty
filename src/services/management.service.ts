@@ -1,6 +1,6 @@
 import db from '../lib/db';
 import { requireRole } from '../lib/rbac';
-import { Role, IntakeStatus, LinkStatus, DuplicateReviewStatus, MigrationStatus } from '@prisma/client';
+import { Role, IntakeStatus, LinkStatus, DuplicateReviewStatus, MigrationStatus } from '@/lib/prisma-shim';
 
 export interface BranchComparisonData {
   branchId: string;

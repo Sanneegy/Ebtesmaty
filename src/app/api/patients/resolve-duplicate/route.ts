@@ -2,7 +2,7 @@ import {getOperationalUser} from '@/lib/operational-auth';
 import { NextResponse } from 'next/server';
 import { getCurrentUser } from '../../../../lib/auth';
 import { resolveDuplicateReview } from '../../../../services/patient.service';
-import { DuplicateReviewStatus } from '@prisma/client';
+import { DuplicateReviewStatus } from '@/lib/prisma-shim';
 
 export async function POST(request: Request) {
   try {

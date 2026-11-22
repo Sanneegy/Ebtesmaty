@@ -11,7 +11,7 @@ import {
   AlertStatus,
   EquipmentStatus,
   QueueStatus,
-} from '@prisma/client';
+} from '@/lib/prisma-shim';
 
 export interface CreateNotificationInput {
   userId: string;

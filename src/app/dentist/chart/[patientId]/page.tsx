@@ -5,7 +5,7 @@ import React from 'react';
 import { redirect } from 'next/navigation';
 import { getCurrentUser } from '@/lib/auth';
 import { assertCareAssignment,branchScope,hasRole } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import db from '@/lib/db';
 import { getPatientClinicalSummary } from '@/services/clinical.service';
 import { DentistPatientChartClient } from './DentistPatientChartClient';

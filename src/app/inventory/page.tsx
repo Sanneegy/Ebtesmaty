@@ -10,7 +10,7 @@ import React from 'react';
 import { redirect } from 'next/navigation';
 import { getCurrentUser } from '@/lib/auth';
 import { hasRole } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import db from '@/lib/db';
 import { getMaterialCatalog, getSuppliers, getStockBalances } from '@/services/inventory.service';
 import { InventoryDeskClient } from './InventoryDeskClient';

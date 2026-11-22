@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { db } from '@/lib/db';
 import { reportPatientArrival } from '@/services/scheduling.service';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import { getCairoDayBounds } from '@/lib/cairo-date';
 import { hasRole } from '@/lib/rbac';
 

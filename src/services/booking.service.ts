@@ -1,6 +1,6 @@
 import {normalizePhone} from '@/lib/phone';
 import db from '@/lib/db';
-import { Prisma, Role, BookingSource } from '@prisma/client';
+import { Prisma, Role, BookingSource } from '@/lib/prisma-shim';
 import { requireRole, assertPatientSelf } from '@/lib/rbac';
 import { dateOnly, minutes, clockTime, cairoDate, cairoInstant, overlaps } from '@/lib/scheduling-rules';
 import { randomUUID, createHash } from 'crypto';

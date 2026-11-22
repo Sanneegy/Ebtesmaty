@@ -1,5 +1,5 @@
 import db from './db';
-import { Prisma } from '@prisma/client';
+import { Prisma } from '@/lib/prisma-shim';
 
 export interface AuditLogParams {
   actorUserId?: string | null;

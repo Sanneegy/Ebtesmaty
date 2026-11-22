@@ -3,7 +3,7 @@ import {branchScope} from '@/lib/rbac';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { requireRole } from '@/lib/rbac';
-import { Role, PaymentMethod } from '@prisma/client';
+import { Role, PaymentMethod } from '@/lib/prisma-shim';
 import { recordPayment, getPatientPayments } from '@/services/billing.service';
 import db from '@/lib/db';
 

@@ -1,4 +1,4 @@
-import { Role, User, RoleGrant } from '@prisma/client';
+import { Role, User, RoleGrant } from '@/lib/prisma-shim';
 import db from './db';
 
 export class AuthorizationError extends Error {

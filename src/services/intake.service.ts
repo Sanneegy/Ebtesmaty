@@ -1,7 +1,7 @@
 import db from '../lib/db';
 import { logAuditEvent } from '../lib/audit';
 import { requireRole, assertCareAssignment, assertPatientSelf, AuthorizationError } from '../lib/rbac';
-import { Role, IntakeStatus, IntakeSource, ReviewOutcome, Prisma } from '@prisma/client';
+import { Role, IntakeStatus, IntakeSource, ReviewOutcome, Prisma } from '@/lib/prisma-shim';
 
 export interface MedicalAnswers {
   conditions: {

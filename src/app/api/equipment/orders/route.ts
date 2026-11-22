@@ -1,7 +1,7 @@
 import {getOperationalUser} from '@/lib/operational-auth';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import { getWorkOrders, createWorkOrder } from '@/services/equipment.service';
 
 export async function GET(req: NextRequest) {

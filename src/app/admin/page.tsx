@@ -5,7 +5,7 @@ import {QueuePolicySettings} from '@/components/QueuePolicySettings';
 import React from 'react';
 import { getCurrentUser } from '@/lib/auth';
 import { hasRole } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import db from '@/lib/db';
 import { AdminDashboardClient } from './AdminDashboardClient';
 import { RolePageHeader } from '@/components/ui/RolePageHeader';

@@ -6,7 +6,7 @@ import {TranslatedText} from '@/components/TranslatedText';
 import React from 'react';
 import { getCurrentUser } from '@/lib/auth';
 import db from '@/lib/db';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import CrmDashboardClient from './CrmDashboardClient';
 
 export const dynamic = 'force-dynamic';

@@ -1,7 +1,7 @@
 import {branchScope,hasRole} from '@/lib/rbac';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import { getFeedbackCases, submitFeedbackCase } from '@/services/communications.service';
 import db from '@/lib/db';
 

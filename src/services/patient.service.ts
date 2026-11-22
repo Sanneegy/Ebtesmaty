@@ -2,7 +2,7 @@ import {normalizePhone} from '@/lib/phone';
 import db from '../lib/db';
 import { logAuditEvent } from '../lib/audit';
 import { requireRole, AuthorizationError } from '../lib/rbac';
-import { Role, PatientSource, MigrationStatus, LinkStatus, DuplicateReviewStatus } from '@prisma/client';
+import { Role, PatientSource, MigrationStatus, LinkStatus, DuplicateReviewStatus } from '@/lib/prisma-shim';
 
 export interface CreatePatientInput {
   fullName: string;

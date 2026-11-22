@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { getOperationalUser } from '@/lib/operational-auth';
 import { assertPatientSelf, hasRole } from '@/lib/rbac';
-import { Role, TreatmentPlanStatus } from '@prisma/client';
+import { Role, TreatmentPlanStatus } from '@/lib/prisma-shim';
 import db from '@/lib/db';
 import { logAuditEvent } from '@/lib/audit';
 import { createInvoice } from '@/services/billing.service';

@@ -9,7 +9,7 @@ import {
   InstallmentPlanStatus, 
   InstallmentStatus,
   ExpenseCategory 
-} from '@prisma/client';
+} from '@/lib/prisma-shim';
 
 export interface CreateInvoiceInput {
   patientId: string;

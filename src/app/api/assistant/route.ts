@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { getOperationalUser } from '@/lib/operational-auth';
 import { hasRole } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import db from '@/lib/db';
 import { getCairoDayBounds } from '@/lib/cairo-date';
 import { getOwnerProfitabilityReport } from '@/services/platform-extensions.service';

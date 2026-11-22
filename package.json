@@ -26,6 +26,7 @@
     "data:audit": "node scripts/audit-data.cjs"
   },
   "dependencies": {
+    "@prisma/client": "file:./prisma-client-shim",
     "bcryptjs": "^3.0.2",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",

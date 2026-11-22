@@ -5,7 +5,7 @@ import {reportBranch} from '@/lib/report-scope';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { requireRole } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import { getFinancialSummary } from '@/services/billing.service';
 
 export async function GET(req: NextRequest) {

@@ -4,7 +4,7 @@ import {requireClinicalAccess} from '@/lib/rbac';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { requireRole } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import { getEncounter, updateEncounterDraft, finalizeEncounter } from '@/services/clinical.service';
 
 export async function GET(

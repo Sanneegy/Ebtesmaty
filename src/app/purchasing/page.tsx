@@ -5,7 +5,7 @@ import React from 'react';
 import { redirect } from 'next/navigation';
 import { getCurrentUser } from '@/lib/auth';
 import { hasRole, branchScope } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import db from '@/lib/db';
 import { PurchasingWorkspaceClient } from './PurchasingWorkspaceClient';
 

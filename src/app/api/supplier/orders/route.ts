@@ -3,7 +3,7 @@ import {hasRole} from '@/lib/rbac';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import db from '@/lib/db';
-import { PurchaseOrderStatus } from '@prisma/client';
+import { PurchaseOrderStatus } from '@/lib/prisma-shim';
 
 export async function GET(req: NextRequest) {
   const user = await getOperationalUser();

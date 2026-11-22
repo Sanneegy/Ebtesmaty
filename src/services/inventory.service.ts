@@ -1,6 +1,6 @@
 import {isStockLotExpired} from '@/lib/inventory-stock';
 import {createHash} from 'crypto';
-import {Prisma} from '@prisma/client';
+import {Prisma} from '@/lib/prisma-shim';
 import {requireRole} from '@/lib/rbac';
 async function adjustStock(tx:Prisma.TransactionClient,data:StockAdjustmentInput){
  if(!Number.isInteger(data.quantity)||data.quantity===0)throw new Error('Stock quantity must be a non-zero integer.');
@@ -19,7 +19,7 @@ import {
   StockMovementType, 
   StockTransferStatus, 
   PurchaseOrderStatus 
-} from '@prisma/client';
+} from '@/lib/prisma-shim';
 
 export interface CreateMaterialInput {
   sku: string;

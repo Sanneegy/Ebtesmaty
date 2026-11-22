@@ -1,6 +1,6 @@
 import db from '@/lib/db';
 import { requireRole } from '@/lib/rbac';
-import { PaymentMethod } from '@prisma/client';
+import { PaymentMethod } from '@/lib/prisma-shim';
 import { z } from 'zod';
 import { randomUUID } from 'crypto';
 const paymentSchema = z.object({ patientId: z.string().min(1), collectionBranchId: z.string().min(1), amountPiasters: z.number().int().positive().max(2147483647), paymentMethod: z.nativeEnum(PaymentMethod), collectedByUserId: z.string().min(1), idempotencyKey: z.string().min(8).max(200), invoiceAllocations: z.array(z.object({ invoiceId: z.string().min(1), amountPiasters: z.number().int().positive() })).optional(), notes: z.string().max(1000).optional() });

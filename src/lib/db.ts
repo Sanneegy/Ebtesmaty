@@ -1,4 +1,4 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@/lib/prisma-shim';
 
 if(process.env.VITEST && process.env.DATABASE_URL && !process.env.DATABASE_URL.includes('ebtesamty_ux_verification'))throw new Error('Database tests require the isolated verification database. Run npm run test:isolated.');
 

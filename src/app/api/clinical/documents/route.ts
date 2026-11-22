@@ -1,7 +1,7 @@
 import { randomUUID } from 'crypto';
 import { mkdir, readFile, unlink, writeFile } from 'fs/promises';
 import path from 'path';
-import { FileCategory } from '@prisma/client';
+import { FileCategory } from '@/lib/prisma-shim';
 import { NextRequest, NextResponse } from 'next/server';
 import db from '@/lib/db';
 import { getOperationalUser } from '@/lib/operational-auth';

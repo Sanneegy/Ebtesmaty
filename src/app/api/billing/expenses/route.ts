@@ -3,7 +3,7 @@ import {reportBranch} from '@/lib/report-scope';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { requireRole } from '@/lib/rbac';
-import { Role, ExpenseCategory } from '@prisma/client';
+import { Role, ExpenseCategory } from '@/lib/prisma-shim';
 import { recordExpense } from '@/services/billing.service';
 import db from '@/lib/db';
 

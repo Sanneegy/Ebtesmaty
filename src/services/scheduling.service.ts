@@ -13,7 +13,7 @@ import {
   FollowUpStatus,
   NotificationType,
   AlertType
-} from '@prisma/client';
+} from '@/lib/prisma-shim';
 import { logAuditEvent } from '../lib/audit';
 
 export interface CreateRequestInput {
@@ -330,7 +330,7 @@ export async function reportPatientArrival(
   patientId: string,
   branchId: string,
   appointmentId?: string
-): Promise<import("@prisma/client").ArrivalEvent> { throw new Error('Arrival must be verified by reception using checkIn.'); }
+): Promise<import("@/lib/prisma-shim").ArrivalEvent> { throw new Error('Arrival must be verified by reception using checkIn.'); }
 
 /**
  * 7. Receptionist verifies physical presence (ARRIVAL_VERIFIED) and admits to Live Queue
@@ -350,7 +350,7 @@ export async function admitDirectWalkIn(
   dentistUserId: string | undefined,
   priorityReason: string | undefined,
   actor: { id: string; role: string }
-): Promise<import("@prisma/client").QueueEntry> { throw new Error('Book an available walk-in slot, then check in at reception.'); }
+): Promise<import("@/lib/prisma-shim").QueueEntry> { throw new Error('Book an available walk-in slot, then check in at reception.'); }
 
 /**
  * 9. Dentist / Staff calls patient from waiting queue

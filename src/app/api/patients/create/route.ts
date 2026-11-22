@@ -2,7 +2,7 @@ import {getOperationalUser} from '@/lib/operational-auth';
 import { NextResponse } from 'next/server';
 import { getCurrentUser } from '../../../../lib/auth';
 import { createPatient } from '../../../../services/patient.service';
-import { PatientSource, MigrationStatus } from '@prisma/client';
+import { PatientSource, MigrationStatus } from '@/lib/prisma-shim';
 
 export async function POST(request: Request) {
   try {

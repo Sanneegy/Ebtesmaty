@@ -2,7 +2,7 @@ import {getOperationalUser} from '@/lib/operational-auth';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { hasRole } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import db from '@/lib/db';
 
 export async function GET(req: NextRequest) {

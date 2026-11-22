@@ -4,7 +4,7 @@ import db from '../../../../lib/db';
 import { hashPassword, createSession, setSessionCookie } from '../../../../lib/auth';
 import { generateNextPatientNumber } from '../../../../services/patient.service';
 import { logAuditEvent } from '../../../../lib/audit';
-import { Role, UserStatus, PatientSource, MigrationStatus, LinkStatus } from '@prisma/client';
+import { Role, UserStatus, PatientSource, MigrationStatus, LinkStatus } from '@/lib/prisma-shim';
 
 export async function POST(request: Request) {
   try {

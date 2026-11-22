@@ -5,7 +5,7 @@ import {
   TreatmentPlanStatus, 
   TreatmentItemStatus, 
   FileCategory 
-} from '@prisma/client';
+} from '@/lib/prisma-shim';
 
 export interface CreateEncounterInput {
   patientId: string;

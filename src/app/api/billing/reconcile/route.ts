@@ -2,7 +2,7 @@ import {getOperationalUser} from '@/lib/operational-auth';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { requireRole } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import { recordCashReconciliation } from '@/services/billing.service';
 
 export async function POST(req: NextRequest) {

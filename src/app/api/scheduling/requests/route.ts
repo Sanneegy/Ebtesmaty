@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { db } from '@/lib/db';
 import { createAppointmentRequest } from '@/services/scheduling.service';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 
 export async function GET(req: NextRequest) {
   const user = await getOperationalUser();

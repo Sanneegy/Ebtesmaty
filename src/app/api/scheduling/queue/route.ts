@@ -6,7 +6,7 @@ import { getCurrentUser } from '@/lib/auth';
 import { db } from '@/lib/db';
 import { admitDirectWalkIn } from '@/services/scheduling.service';
 import { requireRole } from '@/lib/rbac';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import { getCairoDayBounds } from '@/lib/cairo-date';
 import { hasRole } from '@/lib/rbac';
 

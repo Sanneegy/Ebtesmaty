@@ -6,7 +6,7 @@ import {requireRole} from '@/lib/rbac';
 import {hasRole as canInventory} from '@/lib/rbac';
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import { getGoodsReceipts, receiveGoods } from '@/services/inventory.service';
 
 export async function GET(req: NextRequest) {

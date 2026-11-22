@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { requireRole } from '@/lib/rbac';
 import db from '@/lib/db';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 import { createInstallmentPlan } from '@/services/billing.service';
 
 export async function POST(req: NextRequest) {

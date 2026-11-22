@@ -1,16 +1,22 @@
-import {normalizePhone} from '@/lib/phone';
-import {loginDestination} from '@/lib/login-destination';
+import { normalizePhone } from '@/lib/phone';
+import { loginDestination } from '@/lib/login-destination';
 import { NextResponse } from 'next/server';
-import db from '../../../../lib/db';
-import { verifyPassword, createSession, setSessionCookie, FALLBACK_DEMO_USERS } from '../../../../lib/auth';
-import { logAuditEvent } from '../../../../lib/audit';
+import db from '@/lib/db';
+import { verifyPassword, createSession, SESSION_COOKIE_NAME, FALLBACK_DEMO_USERS } from '@/lib/auth';
+import { logAuditEvent } from '@/lib/audit';
 
 export async function POST(request: Request) {
   try {
-    const body = await request.json();
+    const body = await request.json().catch(() => ({}));
     const { emailOrPhone, password } = body;
 
-    if (typeof emailOrPhone !== 'string' || typeof password !== 'string' || !emailOrPhone || !password || password.length>256) {
+    if (
+      typeof emailOrPhone !== 'string' ||
+      typeof password !== 'string' ||
+      !emailOrPhone ||
+      !password ||
+      password.length > 256
+    ) {
       return NextResponse.json({ error: 'Email/phone and password are required' }, { status: 400 });
     }
 
@@ -28,17 +34,19 @@ export async function POST(request: Request) {
         },
       });
 
-      if (user && user.status === "ACTIVE") {
+      if (user && user.status === 'ACTIVE') {
         const isValid = await verifyPassword(password, user.passwordHash);
         if (!isValid) {
           return NextResponse.json({ error: 'Invalid email, phone, or password' }, { status: 401 });
         }
 
         const redirectUrl = loginDestination(user.roleGrants);
-        if (!redirectUrl) return NextResponse.json({ error: 'No authorized workspace is configured' }, { status: 403 });
+        if (!redirectUrl) {
+          return NextResponse.json({ error: 'No authorized workspace is configured' }, { status: 403 });
+        }
 
         const { token, expiresAt } = await createSession(user.id);
-        await setSessionCookie(token, expiresAt);
+        const primaryRole = user.roleGrants[0]?.role;
 
         await logAuditEvent({
           actorUserId: user.id,
@@ -49,8 +57,21 @@ export async function POST(request: Request) {
           metadata: { method: 'PASSWORD' },
         });
 
-        const primaryRole = user.roleGrants[0]?.role;
-        return NextResponse.json({ success: true, redirectUrl, user: { id: user.id, fullName: user.fullName, role: primaryRole } });
+        const res = NextResponse.json({
+          success: true,
+          redirectUrl,
+          user: { id: user.id, fullName: user.fullName, role: primaryRole },
+        });
+
+        res.cookies.set(SESSION_COOKIE_NAME, token, {
+          httpOnly: true,
+          secure: process.env.NODE_ENV === 'production',
+          sameSite: 'lax',
+          expires: expiresAt,
+          path: '/',
+        });
+
+        return res;
       }
     } catch (dbErr) {
       console.warn('Database unavailable during login, checking fallback demo accounts:', dbErr);
@@ -64,13 +85,23 @@ export async function POST(request: Request) {
     if (fallbackAccount && password === 'Password123!') {
       const redirectUrl = loginDestination(fallbackAccount.roleGrants) || '/patient/dashboard';
       const expiresAt = new Date(Date.now() + 1000 * 60 * 60 * 24 * 7);
-      await setSessionCookie(`demo:${fallbackAccount.email}`, expiresAt);
       const primaryRole = fallbackAccount.roleGrants[0]?.role;
-      return NextResponse.json({
+
+      const res = NextResponse.json({
         success: true,
         redirectUrl,
         user: { id: fallbackAccount.id, fullName: fallbackAccount.fullName, role: primaryRole },
       });
+
+      res.cookies.set(SESSION_COOKIE_NAME, `demo:${fallbackAccount.email}`, {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === 'production',
+        sameSite: 'lax',
+        expires: expiresAt,
+        path: '/',
+      });
+
+      return res;
     }
 
     return NextResponse.json({ error: 'Invalid email, phone, or password' }, { status: 401 });

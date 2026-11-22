@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import db from '@/lib/db';
 import { logAuditEvent } from '@/lib/audit';
-import { FollowUpStatus, Role } from '@prisma/client';
+import { FollowUpStatus, Role } from '@/lib/prisma-shim';
 
 export async function PATCH(req: NextRequest) {
   const user = await getOperationalUser();

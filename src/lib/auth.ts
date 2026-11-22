@@ -2,7 +2,7 @@ import crypto from 'crypto';
 import bcrypt from 'bcryptjs';
 import { cookies } from 'next/headers';
 import db from './db';
-import { Role } from '@prisma/client';
+import { Role } from '@/lib/prisma-shim';
 
 export const SESSION_COOKIE_NAME = 'ebtesamty_session';
 export const SESSION_MAX_AGE_SECONDS = 60 * 60 * 24 * 7; // 7 days

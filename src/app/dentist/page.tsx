@@ -9,7 +9,7 @@ import React from 'react';
 import { redirect } from 'next/navigation';
 import { getCurrentUser } from '../../lib/auth';
 import { hasRole } from '../../lib/rbac';
-import { Role, AppointmentStatus, QueueStatus } from '@prisma/client';
+import { Role, AppointmentStatus, QueueStatus } from '@/lib/prisma-shim';
 import db from '../../lib/db';
 import { DentistDeskClient } from './DentistDeskClient';
 
