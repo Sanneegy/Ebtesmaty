@@ -85,7 +85,6 @@ export function PresentationAccess({
                   <button
                     className="presentation-account w-full text-start"
                     type="submit"
-                    onClick={() => setOpen(false)}
                   >
                     <span className="text-[11px] font-bold text-teal-800 block">
                       {ar ? a.roleAr : a.role}

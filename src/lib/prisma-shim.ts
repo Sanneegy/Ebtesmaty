@@ -372,13 +372,18 @@ function createNoopModel(): any {
     {
       get(_target, prop) {
         if (prop === 'findMany') return async () => [];
+        if (prop === 'findFirst' || prop === 'findUnique') return async () => null;
         if (prop === 'count' || prop === 'deleteMany' || prop === 'updateMany') return async () => 0;
         if (prop === 'aggregate') return async () => ({ _sum: {}, _count: {}, _avg: {} });
         if (prop === 'groupBy') return async () => [];
-        // Throw on findUnique/create so auth routes cleanly hit their catch fallback (`FALLBACK_DEMO_USERS`)
-        return async () => {
-          throw new Error('Serverless mode: No database bound to worker');
-        };
+        if (prop === 'create' || prop === 'update' || prop === 'upsert') {
+          return async (args: any) => ({
+            id: args?.where?.id || 'serverless_record',
+            ...(args?.data || args?.create || args?.update || {}),
+          });
+        }
+        if (prop === 'delete') return async () => ({ id: 'deleted' });
+        return async () => null;
       },
     }
   );

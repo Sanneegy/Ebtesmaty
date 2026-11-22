@@ -1146,7 +1146,7 @@ export default function MinyaRoleModulePage({
                 ● {isAr ? "تاج زيركون جاهز للتركيب" : "Crown Ready to Fit ✓"}
               </div>
               <div className="mt-1 text-sm font-semibold text-slate-500">
-                Tooth #34 · Shade A2
+                Tooth #36 · Shade A2
               </div>
             </div>
           </div>

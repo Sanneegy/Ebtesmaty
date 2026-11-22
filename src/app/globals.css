@@ -319,9 +319,9 @@ button:disabled {
 
 /* Soft-Tinted Rounded-2xl Inputs & Selects */
 .field,
-input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]),
-select,
-textarea {
+:where(input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"])),
+:where(select),
+:where(textarea) {
   border-radius: 1rem; /* rounded-2xl */
   border: 1px solid rgba(203, 213, 225, 0.85);
   background-color: #F7F6F2;
